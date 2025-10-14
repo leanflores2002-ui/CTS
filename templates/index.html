@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitario Klondike</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <h1>Solitaire Klondike</h1>
+            <div class="game-controls">
+                <button id="new-game-btn">Nuevo Juego</button>
+                <button id="hint-btn">Pista</button>
+                <div class="game-stats">
+                    <span id="moves-count">Movimientos: 0</span>
+                    <span id="timer">Tiempo: 00:00</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="game-board">
+            <!-- Stock y Waste -->
+            <div class="top-row">
+                <div class="pile stock" id="stock">
+                    <div class="card back"></div>
+                </div>
+                <div class="pile waste" id="waste"></div>
+                <div class="empty-space"></div>
+                <!-- Foundations -->
+                <div class="foundation" id="foundation-hearts"></div>
+                <div class="foundation" id="foundation-diamonds"></div>
+                <div class="foundation" id="foundation-clubs"></div>
+                <div class="foundation" id="foundation-spades"></div>
+            </div>
+
+            <!-- Tableau -->
+            <div class="tableau-row">
+                <div class="tableau-pile" id="tableau-0"></div>
+                <div class="tableau-pile" id="tableau-1"></div>
+                <div class="tableau-pile" id="tableau-2"></div>
+                <div class="tableau-pile" id="tableau-3"></div>
+                <div class="tableau-pile" id="tableau-4"></div>
+                <div class="tableau-pile" id="tableau-5"></div>
+                <div class="tableau-pile" id="tableau-6"></div>
+            </div>
+        </div>
+
+        <!-- Modal de Victoria -->
+        <div id="win-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>¡Felicidades!</h2>
+                <p>Has ganado el juego de Solitario.</p>
+                <p id="final-stats">Movimientos: 0 | Tiempo: 00:00</p>
+                <button id="play-again-btn">Jugar Otra Vez</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
