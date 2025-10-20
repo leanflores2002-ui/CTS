@@ -1,73 +1,171 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Etica AI — Versión simple</title>
-  <meta name="description" content="Landing simple y ligera para Etica AI" />
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="wrap">
-    <header class="site-header" role="banner">
-      <div class="brand">
-        <div class="logo" aria-hidden="true">EA</div>
-        <div class="brand-text">
-          <div class="site-title">Etica AI</div>
-          <div class="site-subtitle">versión simple</div>
-        </div>
-      </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ética en IA — Plataforma educativa</title>
+    <meta name="description" content="Plataforma educativa sobre ética en IA: explora temas clave, casos de estudio y recursos para entender la responsabilidad digital" />
+    <meta property="og:title" content="Ética en IA — Plataforma educativa" />
+    <meta property="og:description" content="Plataforma educativa sobre ética en IA: explora temas clave, casos de estudio y recursos para entender la responsabilidad digital" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-      <nav class="main-nav" role="navigation" aria-label="Navegación principal">
-        <a href="#features">Características</a>
-        <a href="#about">Sobre</a>
-        <a href="#contact">Contacto</a>
-      </nav>
-    </header>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-    <main>
-      <section class="hero" id="hero" aria-labelledby="hero-title">
-        <div class="hero-left">
-          <h1 id="hero-title">Comunica tu proyecto con claridad</h1>
-          <p class="lead">Landing minimalista, rápida y fácil de mantener. Perfecta para prototipos y presentaciones.</p>
-          <div class="cta">
-            <a class="btn primary" href="#contact">Comenzar</a>
-            <a class="btn ghost" href="#about">Más info</a>
+  <body class="smooth-scroll">
+    <div class="container">
+      <header class="site-header" role="banner">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">🤖</div>
+          <div class="brand-text">
+            <div class="site-title">Ética en IA</div>
+            <div class="site-subtitle">Plataforma educativa</div>
           </div>
         </div>
 
-        <div class="hero-right" aria-hidden="true">
-          <div class="mock">Imagen o mockup</div>
+        <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#temas">Temas Clave</a>
+          <a href="#casos">Casos</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+          <div class="hero-inner">
+            <div class="hero-content">
+              <h1 id="hero-title">Explora la ética en la inteligencia artificial</h1>
+              <p class="lead">Plataforma educativa dedicada a promover el desarrollo y uso responsable de la inteligencia artificial. Explora temas clave, casos de estudio y recursos para entender la responsabilidad digital.</p>
+              <div class="cta">
+                <a class="btn primary" href="#temas">Ver temas</a>
+                <a class="btn ghost" href="#recursos">Recursos</a>
+              </div>
+            </div>
+
+            <div class="hero-media" aria-hidden="true">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/transparency-ai.jpg" alt="Mockup ética IA" class="hero-img">
+            </div>
+          </div>
+        </section>
+
+        <section id="temas" class="section white-bg">
+          <div class="section-head">
+            <h2>Temas Clave 🎯</h2>
+            <p class="muted">Descubre los pilares fundamentales de la ética en inteligencia artificial</p>
+          </div>
+
+          <div class="grid cards">
+            <article class="card">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/bias-algorithms.jpg" alt="Sesgo" />
+              <h3>⚖️ Sesgo Algorítmico</h3>
+              <p class="muted">Cómo los algoritmos pueden perpetuar o amplificar prejuicios existentes en la sociedad.</p>
+            </article>
+
+            <article class="card">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/privacy-data.jpg" alt="Privacidad" />
+              <h3>🔒 Privacidad de Datos</h3>
+              <p class="muted">La importancia de proteger la información personal en sistemas de IA.</p>
+            </article>
+
+            <article class="card">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/transparency-ai.jpg" alt="Transparencia" />
+              <h3>🔍 Transparencia</h3>
+              <p class="muted">La necesidad de entender cómo y por qué los sistemas de IA toman decisiones.</p>
+            </article>
+
+            <article class="card">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/accountability.jpg" alt="Responsabilidad" />
+              <h3>👥 Responsabilidad</h3>
+              <p class="muted">Quién es responsable cuando la IA comete errores o causa daño.</p>
+            </article>
+
+            <article class="card">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/social-impact.jpg" alt="Impacto social" />
+              <h3>🌍 Impacto Social</h3>
+              <p class="muted">Cómo la IA afecta el empleo, la desigualdad y la sociedad en general.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="casos" class="section glass-bg">
+          <div class="section-head">
+            <h2>Casos de Estudio</h2>
+            <p class="muted">Ejemplos reales que muestran desafíos y lecciones sobre IA y ética.</p>
+          </div>
+
+          <div class="grid case-cards">
+            <article class="case">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/amazon-face-recognition.jpg" alt="Caso Amazon" />
+              <div class="case-body">
+                <h3>🚨 Amazon Recruiting (Sesgo en contratación)</h3>
+                <p class="muted">En 2018 Amazon descubrió que su sistema de selección entrenado con CV históricos discriminaba a mujeres.</p>
+              </div>
+            </article>
+
+            <article class="case">
+              <img src="https://raw.githubusercontent.com/leanflores2002-ui/etica-ai-futuro/main/src/assets/facial-recognition.jpg" alt="Reconocimiento facial" />
+              <div class="case-body">
+                <h3>📸 Reconocimiento Facial: Precisión desigual</h3>
+                <p class="muted">Sistemas con mayor tasa de error para mujeres y personas de piel oscura. Consecuencias en seguridad y justicia.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="recursos" class="section white-bg">
+          <div class="section-head">
+            <h2>Recursos 📖</h2>
+            <p class="muted">Explora organizaciones, documentos y cursos para profundizar en IA ética.</p>
+          </div>
+
+          <div class="grid resources">
+            <a class="resource" href="https://www.partnershiponai.org" target="_blank" rel="noopener noreferrer">
+              <div class="icon">🏛️</div>
+              <div>
+                <h4>Partnership on AI</h4>
+                <p class="muted">Organización que estudia y recomienda prácticas responsables en IA.</p>
+              </div>
+            </a>
+
+            <a class="resource" href="https://ai.google/responsibilities" target="_blank" rel="noopener noreferrer">
+              <div class="icon">📚</div>
+              <div>
+                <h4>Google AI: Responsible AI</h4>
+                <p class="muted">Recursos y guías sobre prácticas responsables de IA.</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+          <div>
+            <h3>Ética en IA</h3>
+            <p class="muted">Plataforma educativa dedicada al desarrollo y uso responsable de la inteligencia artificial.</p>
+          </div>
+
+          <div class="links">
+            <a href="#inicio">Inicio</a>
+            <a href="#temas">Temas</a>
+            <a href="#casos">Casos</a>
+            <a href="#recursos">Recursos</a>
+          </div>
+
+          <div class="contact">
+            <p class="muted">¿Tienes preguntas o sugerencias? Únete a la conversación sobre IA ética.</p>
+            <p class="muted small">Deploy rápido: GitHub Pages o cualquier hosting estático.</p>
+          </div>
         </div>
-      </section>
-
-      <section id="features" class="cards" aria-label="Características">
-        <article class="card">
-          <h3>Claridad</h3>
-          <p class="muted">Mensajes directos y diseño limpio.</p>
-        </article>
-
-        <article class="card">
-          <h3>Ligera</h3>
-          <p class="muted">Pocos archivos, carga rápida.</p>
-        </article>
-
-        <article class="card">
-          <h3>Responsive</h3>
-          <p class="muted">Se adapta a móviles y escritorio.</p>
-        </article>
-      </section>
-
-      <section id="about" class="about">
-        <h2>Sobre este proyecto</h2>
-        <p class="muted">Plantilla mínima pensada para mostrar contenido esencial. Puedes personalizar colores, textos y logo fácilmente.</p>
-      </section>
-    </main>
-
-    <footer id="contact" class="site-footer" role="contentinfo">
-      <div>Creado por tu nombre · <a href="#" class="link">Contacto</a></div>
-      <div class="muted small">Deploy rápido: GitHub Pages o cualquier hosting estático.</div>
-    </footer>
-  </div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
