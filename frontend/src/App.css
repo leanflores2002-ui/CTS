@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif {
+  font-family: 'Crimson Text', Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth transitions for interactive elements */
+button,
+a {
+  transition: color 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #475569;
+  outline-offset: 2px;
+}
+
+/* ---------- Presentation theme & effects ---------- */
+body.theme-ethics {
+  color: #eef2ff;
+  background: radial-gradient(1200px 800px at var(--mx,50%) var(--my,25%), rgba(99,102,241,0.18), transparent 60%),
+              radial-gradient(900px 600px at 100% 120%, rgba(6,182,212,0.16), transparent 55%),
+              radial-gradient(900px 600px at 0% -20%, rgba(139,92,246,0.14), transparent 55%),
+              linear-gradient(180deg, #0b1020 0%, #0d1117 35%, #0a0f1a 100%);
+  min-height: 100vh;
+}
+
+/* Subtle animated grid overlay */
+body.theme-ethics::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 36px 36px, 36px 36px;
+  mask-image: radial-gradient(ellipse at center, rgba(255,255,255,0.9), transparent 65%);
+  pointer-events: none;
+  animation: gridFloat 30s linear infinite;
+}
+
+@keyframes gridFloat {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Mouse reactive light */
+body.theme-ethics {
+  --mx: 50%;
+  --my: 25%;
+}
+
+/* Presentation container with scroll snapping */
+.presentation-container {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 0;
+  position: relative;
+}
+
+.presentation-slide {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 5rem 1rem;
+  backdrop-filter: saturate(1.05);
+  transform: translateY(24px);
+  opacity: 0;
+  transition: transform 700ms cubic-bezier(.2,.65,.2,1), opacity 700ms ease;
+}
+
+.presentation-slide.in-view {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Pointer parallax for hoverable cards/buttons via data-tilt */
+[data-tilt] {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+  will-change: transform;
+}
+[data-tilt]:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* Utility: glass surface */
+.glass {
+  background: rgba(13, 17, 23, 0.5);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 16px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* Stronger readable surface for text-heavy sections */
+.glass-strong {
+  background: rgba(6, 10, 18, 0.92);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 18px;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.55);
+  -webkit-backdrop-filter: blur(12px) saturate(1.05);
+  backdrop-filter: blur(12px) saturate(1.05);
+}
+
+/* Slide inner container */
+.slide-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+/* Typography tuned for presentation */
+.presentation-container h1,
+.presentation-container h2,
+.presentation-container h3 {
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+}
+.presentation-container h1 { font-size: clamp(2.25rem, 1.1rem + 3.5vw, 3.25rem); }
+.presentation-container h2 { font-size: clamp(1.5rem, 0.8rem + 2.2vw, 2.25rem); }
+.presentation-container h3 { font-size: clamp(1.25rem, 0.7rem + 1.5vw, 1.75rem); }
+
+.presentation-container p,
+.presentation-container li {
+  color: #f2f6ff;
+  line-height: 1.85;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+}
+
+.slide-content img {
+  border-radius: 12px;
+  filter: brightness(0.95) contrast(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.45);
+}
+
+/* Dark theme overrides for existing Tailwind utility classes */
+body.theme-ethics .text-slate-900 { color: #ffffff !important; }
+body.theme-ethics .text-slate-800 { color: #f3f6ff !important; }
+body.theme-ethics .text-slate-700 { color: #e8edff !important; }
+body.theme-ethics .text-slate-600 { color: #dfe6ff !important; }
+
+body.theme-ethics .bg-white,
+body.theme-ethics .bg-slate-50,
+body.theme-ethics .bg-slate-100 { 
+  background-color: rgba(10,14,22,0.72) !important; 
+  border-color: rgba(255,255,255,0.10) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(1.05);
+  backdrop-filter: blur(10px) saturate(1.05);
+}
+
+/* Header glass look on dark theme */
+body.theme-ethics header {
+  background: rgba(6, 10, 18, 0.5) !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Optional: emphasis chip for icons boxes */
+body.theme-ethics .w-12.h-12,
+body.theme-ethics .w-10.h-10 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 10px !important;
+}
+
+/* -------- Page transitions (for multipage routes) -------- */
+.page {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 1rem 3rem;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 420ms ease, transform 500ms cubic-bezier(.2,.65,.2,1);
+}
+.page.page-in { opacity: 1; transform: translateY(0); }
+
+/* Active nav underline */
+.nav-link { position: relative; }
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -6px; height: 2px;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #22d3ee);
+  border-radius: 2px;
+}
+
+/* Ensure navbar link visibility on dark theme */
+body.theme-ethics header .nav-link { color: #e8edff !important; }
+body.theme-ethics header .nav-link:hover { color: #ffffff !important; }
+
+/* Opiniones: entrada suave para nuevos comentarios */
+@keyframes opin-enter {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.anim-enter { animation: opin-enter 350ms ease forwards; }
