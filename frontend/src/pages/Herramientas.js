@@ -13,12 +13,12 @@ export default function Herramientas() {
         <section className="py-20 w-full">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-serif font-bold text-slate-900">🧰 Herramientas</h1>
-              <p className="text-slate-600 text-lg mt-4">Herramientas para evaluar sesgo, explicabilidad y cumplimiento.</p>
+              <h1 className="text-4xl md:text-5xl font-serif font-bold text-slate-900">¿Y Herramientas?</h1>
+              <p className="text-slate-600 text-lg mt-4">Herramientas pensadas para evaluar sesgos, explicabilidad y cumplimiento ético.</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-4" data-stagger>
-                            <Card className="reveal reveal-up border-slate-200" data-reveal>
+              <Card className="reveal reveal-up border-slate-200" data-reveal>
                 <CardHeader>
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 bg-slate-100 flex items-center justify-center">
@@ -26,17 +26,51 @@ export default function Herramientas() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl font-serif text-slate-900">AI Fairness 360</CardTitle>
-                      <CardDescription className="text-slate-600">IBM - Biblioteca para detectar y mitigar sesgos algor?tmicos</CardDescription>
+                      <CardDescription className="text-slate-600">
+                        IBM – biblioteca para detectar y mitigar sesgos algorítmicos en modelos.
+                      </CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <a href="https://github.com/IBM/AIF360" target="_blank" rel="noopener noreferrer" className="text-slate-900 hover:text-slate-700 font-medium">Sitio oficial ?</a>
+                  <a
+                    href="https://github.com/IBM/AIF360"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-900 hover:text-slate-700 font-medium"
+                  >
+                    Sitio oficial →
+                  </a>
                 </CardContent>
               </Card>
 
+              <Card className="reveal reveal-up border-slate-200" data-reveal>
+                <CardHeader>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-slate-100 flex items-center justify-center">
+                      <Globe className="w-6 h-6 text-slate-700" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-2xl font-serif text-slate-900">What-If Tool</CardTitle>
+                      <CardDescription className="text-slate-600">
+                        Google – exploración interactiva de decisiones y escenarios de modelos.
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <a
+                    href="https://pair-code.github.io/what-if-tool/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-900 hover:text-slate-700 font-medium"
+                  >
+                    Sitio oficial →
+                  </a>
+                </CardContent>
+              </Card>
 
-                                          <Card className="reveal reveal-up border-slate-200 md:col-span-2" data-reveal>
+              <Card className="reveal reveal-up border-slate-200 md:col-span-2" data-reveal>
                 <CardHeader>
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 bg-slate-100 flex items-center justify-center">
@@ -44,15 +78,23 @@ export default function Herramientas() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl font-serif text-slate-900">Fairlearn</CardTitle>
-                      <CardDescription className="text-slate-600">Microsoft - Evaluaci?n y mitigaci?n de desigualdades</CardDescription>
+                      <CardDescription className="text-slate-600">
+                        Microsoft – evaluación y mitigación de desigualdades en pipelines de IA.
+                      </CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <a href="https://fairlearn.org/" target="_blank" rel="noopener noreferrer" className="text-slate-900 hover:text-slate-700 font-medium">Sitio oficial ?</a>
+                  <a
+                    href="https://fairlearn.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-900 hover:text-slate-700 font-medium"
+                  >
+                    Sitio oficial →
+                  </a>
                 </CardContent>
               </Card>
-
             </div>
           </div>
         </section>
