@@ -40,7 +40,7 @@ const fmtRelative = (ts) => {
 export default function OpinionesSection() {
   const [name, setName] = useState('');
   const [text, setText] = useState('');
-  const [sort, setSort] = useState('desc'); // 'desc' = mas recientes
+  const [sort, setSort] = useState('desc'); // 'desc' = más recientes
   const [lastAddedId, setLastAddedId] = useState(null);
 
   const [items, setItems] = useState(() => {
@@ -65,7 +65,7 @@ export default function OpinionesSection() {
     const item = { id: Date.now(), name: n, text: t, ts: new Date().toISOString() };
     setItems((prev) => [...prev, item]);
     setLastAddedId(item.id);
-    try { toast({ title: 'Comentario agregado con ?xito' }); } catch {}
+    try { toast({ title: 'Comentario agregado con éxito' }); } catch {}
     setText('');
   };
 
@@ -79,7 +79,7 @@ export default function OpinionesSection() {
   }, [items, sort]);
 
   const clearAll = () => {
-    const ok = window.confirm('?Borrar todos los comentarios locales? Esta acci?n no se puede deshacer.');
+    const ok = window.confirm('¿Borrar todos los comentarios locales? Esta acción no se puede deshacer.');
     if (!ok) return;
     setItems([]);
     setLastAddedId(null);
@@ -94,10 +94,10 @@ export default function OpinionesSection() {
             Opiniones y Reflexiones
           </h2>
           <p className="text-slate-600 mt-2" data-reveal style={{ transitionDelay: '80ms' }}>
-            Comparte tus ideas sobre la ?tica de la IA. Los comentarios se guardan localmente en tu navegador.
+            Comparte tus ideas sobre la ética de la IA. Los comentarios se guardan localmente en tu navegador.
           </p>
           <div className="mt-3 text-slate-500" data-reveal style={{ transitionDelay: '120ms' }}>
-            Este espacio est? pensado para compartir ideas y reflexiones ?ticas sobre la inteligencia artificial. S? respetuoso y constructivo en tus aportes.
+            Este espacio está pensado para compartir ideas y reflexiones éticas sobre la inteligencia artificial. Sé respetuoso y constructivo en tus aportes.
           </div>
         </div>
 
@@ -139,7 +139,7 @@ export default function OpinionesSection() {
                 ))}
               </div>
             ) : (
-              <div className="text-slate-300">A?n no hay comentarios. S? la primera persona en opinar!</div>
+              <div className="text-slate-300">Aún no hay comentarios. Sé la primera persona en opinar!</div>
             )}
           </div>
 
@@ -162,7 +162,7 @@ export default function OpinionesSection() {
                 id="opiniones-text"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
-                placeholder="Escribi tu comentario"
+                placeholder="Escribí tu comentario"
                 required
                 className="w-full min-h-[110px] px-3 py-2 rounded-lg border border-slate-300 bg-slate-900/60 text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 resize-vertical"
               />

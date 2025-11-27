@@ -10,7 +10,7 @@ const Footer = () => {
       title: 'Navegación',
       links: [
         { label: 'Inicio', to: '/' },
-        { label: 'Temas Claves', to: '/temas' },
+        { label: 'Temas clave', to: '/temas' },
         { label: 'Casos de Estudio', to: '/casos' },
         { label: 'Recursos', to: '/recursos' }
       ]

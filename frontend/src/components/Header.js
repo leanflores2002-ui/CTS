@@ -14,8 +14,8 @@ const Header = () => {
 
   const navItems = [
     { to: '/', label: 'Inicio' },
-    { to: '/temas', label: 'Temas Claves' },
-    { to: '/estadisticas', label: 'Estadisticas' },
+    { to: '/temas', label: 'Temas clave' },
+    { to: '/estadisticas', label: 'Estadísticas' },
     { to: '/casos', label: 'Casos de Estudio' },
     { to: '/recursos', label: 'Recursos' },
     { to: '/impactos', label: 'Impactos Sociales' },
@@ -28,13 +28,13 @@ const Header = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link
+            <Link
             to="/"
             className="text-xl font-serif font-bold text-slate-900 hover:text-slate-700 transition-colors"
             onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Etica de IA
-          </Link>
+            >
+              Ética de IA
+            </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (

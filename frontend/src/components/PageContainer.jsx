@@ -9,7 +9,7 @@ export default function PageContainer({ children }) {
     if (el) {
       requestAnimationFrame(() => el.classList.add('page-in'));
     }
-    // Re-inicializa animaciones de reveal/parallax al montar cada página
+    // Re-inicializa animaciones de reveal/parallax al montar cada pÃ¡gina
     const cleanupAnimations = initAnimations({ once: true, stagger: 48 });
     return () => {
       document.body.classList.remove('theme-ethics');

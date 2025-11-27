@@ -13,10 +13,10 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 data-reveal className="reveal reveal-up text-5xl md:text-6xl font-serif font-bold text-slate-900 leading-tight">
-              Etica de la Inteligencia Artificial
+              Ética de la Inteligencia Artificial
             </h1>
             <p data-reveal className="reveal reveal-up text-xl text-slate-600 leading-relaxed" style={{ transitionDelay: '80ms' }}>
-              Te invitamos a recorrer ideas clave sobre principios eticos, riesgos compartidos y responsabilidades en el desarrollo y uso de sistemas de inteligencia artificial en nuestras comunidades.
+              Te invitamos a recorrer ideas clave sobre principios éticos, riesgos compartidos y responsabilidades en el desarrollo y uso de sistemas de inteligencia artificial en nuestras comunidades.
             </p>
             <div className="pt-4">
               <Link

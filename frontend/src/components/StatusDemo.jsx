@@ -98,7 +98,7 @@ export default function StatusDemo() {
               {items.length === 0 && (
                 <TableRow>
                   <TableCell colSpan={3} className="text-muted-foreground">
-                    Sin registros todavía.
+                    Sin registros todav?a.
                   </TableCell>
                 </TableRow>
               )}
