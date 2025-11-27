@@ -29,18 +29,6 @@ export default function ImpactosSocialesSection() {
           La IA no avanza sola: esta orientada por decisiones humanas, sociales y politicas. La etica requiere miradas interdisciplinarias y herramientas de gobernanza concretas.
         </div>
 
-        <div className="mb-10 space-y-4 text-lg text-gray-200">
-          <p className="italic">
-            «Gracias a la auditoría ética pudimos ajustar los modelos para incluir territorios rurales que antes quedaban fuera de la cobertura médica, y hoy esas comunidades participan de la telemedicina sin exclusiones». – María López, defensora de inclusión digital.
-          </p>
-          <p className="italic">
-            «El refuerzo en privacidad diferencial y controles de datos devolvió confianza a las familias que comparten información sensible: ahora saben que la información no se comercializa». – Javier Ramos, director de privacidad de un hospital público.
-          </p>
-          <p className="italic">
-            «La seguridad y la supervisión humana fortalecen nuestras operaciones: los protocolos de ética reducen incidentes y elevan la percepción de seguridad en la ciudadanía». – Liliana Ortiz, coordinadora de ciberseguridad ciudadana.
-          </p>
-        </div>
-
         {/* Seccion: Sociedad */}
         <h2 className="text-2xl font-semibold text-gray-200 mb-4">Sociedad: impactos y responsabilidades colectivas</h2>
         {/* Transformaciones y brechas */}

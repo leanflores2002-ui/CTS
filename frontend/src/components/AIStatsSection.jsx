@@ -47,7 +47,7 @@ function MarketGrowthChart() {
 
   return (
     <figure className="w-full">
-      <svg viewBox={`0 0 ${svgW} ${svgH}`} role="img" aria-label="Crecimiento de iniciativas de ética y gobernanza para IA generativa">
+      <svg viewBox={`0 0 ${svgW} ${svgH}`} role="img" aria-label="Crecimiento del mercado de IA generativa en miles de millones de USD">
         <defs>
           <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse">
             <path d="M0,0 L8,4 L0,8 Z" fill="#6d28d9" />
@@ -102,7 +102,7 @@ function MarketGrowthChart() {
         })()}
       </svg>
       <figcaption className="text-center text-sm text-slate-500 mt-2">
-        Tendencia de inversión en auditorías éticas y gobernanza (valores estimados marcados con *).
+        Crecimiento del mercado de IA generativa (valores estimados marcados con *).
       </figcaption>
     </figure>
   );
@@ -114,83 +114,83 @@ const AIStatsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 data-reveal className="reveal reveal-up text-3xl md:text-4xl font-serif font-bold text-slate-900">
-            Estadísticas sobre ética en la IA (2023–2025)
+            Estadísticas sobre el uso de la IA (2023–2025)
           </h2>
           <p className="text-slate-600 mt-3 max-w-3xl mx-auto">
-            Métricas recientes que documentan auditorías éticas, marcos regulatorios y evaluaciones de impacto algorítmico para garantizar despliegues inclusivos y responsables.
+            Panorama reciente de adopción, efectos en empleo y productividad, educación, salud, hogares y percepción social, con referencias institucionales.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" data-stagger>
           <Card data-reveal className="reveal reveal-up">
             <CardHeader>
-              <CardTitle>Auditorías Éticas</CardTitle>
+              <CardTitle>Empresas</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                El 72% de los proyectos de alto riesgo reportados en 2024 completaron auditorías éticas independientes antes de su despliegue, combinando revisiones humanas con análisis automatizados.
+                El Stanford AI Index 2024 reporta una rápida expansión de la IA generativa en 2023–2024 y un aumento de adopción en áreas como servicio al cliente, marketing y desarrollo de software. La OCDE (2023) observa mayor adopción en grandes empresas que en pymes.
               </p>
-              <p className="text-sm text-slate-500">Fuente: UNESCO 2024; observatorios multilaterales.</p>
+              <p className="text-sm text-slate-500">Fuentes: Stanford AI Index 2024; OCDE 2023.</p>
             </CardContent>
           </Card>
 
           <Card data-reveal className="reveal reveal-up">
             <CardHeader>
-              <CardTitle>Marcos regulatorios</CardTitle>
+              <CardTitle>Empleo y productividad</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                38 países ya registran marcos regulatorios explícitos en torno a la ética de la IA, con comités de gobernanza e indicadores de cumplimiento en crecimiento.
+                WEF (Future of Jobs 2023): ~83M puestos desplazados y ~69M creados a 2027; ~44% de habilidades afectadas. Evidencia experimental (MIT, 2023) muestra ≈14% de mejora promedio en tareas de redacción con IA generativa, mayor para perfiles menos experimentados. OIT (2023): alta exposición en tareas administrativas.
               </p>
-              <p className="text-sm text-slate-500">Fuente: OECD.AI; UNESCO 2024.</p>
+              <p className="text-sm text-slate-500">Fuentes: WEF 2023; Noy & Zhang (MIT, 2023); OIT 2023.</p>
             </CardContent>
           </Card>
 
           <Card data-reveal className="reveal reveal-up">
             <CardHeader>
-              <CardTitle>Evaluaciones de Impacto Algorítmico</CardTitle>
+              <CardTitle>Educación</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                Más de 150 agencias públicas y privadas adoptaron evaluaciones de impacto algorítmico (EIA) en sus despliegues piloto para comprender consecuencias sociales y ambientales.
+                UNESCO (2023) registra una adopción creciente de IA generativa en entornos educativos y recomienda marcos institucionales claros para integridad académica, evaluación y protección de datos.
               </p>
-              <p className="text-sm text-slate-500">Fuente: UNESCO/EU AI Act trackers 2024.</p>
+              <p className="text-sm text-slate-500">Fuente: UNESCO 2023.</p>
             </CardContent>
           </Card>
 
           <Card data-reveal className="reveal reveal-up">
             <CardHeader>
-              <CardTitle>Supervisión humana</CardTitle>
+              <CardTitle>Salud</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                El 81% de los sistemas de alto riesgo mantiene supervisión humana obligatoria para decisiones críticas, con alarmas y mecanismos de remediación definidos.
+                La OMS (2023) recoge expansión de pilotos de IA en diagnóstico e imagen médica, con énfasis en validación clínica, calidad de datos y vigilancia posdespliegue.
               </p>
-              <p className="text-sm text-slate-500">Fuente: NIST 2024; comisiones de ética regionales.</p>
+              <p className="text-sm text-slate-500">Fuente: OMS 2023.</p>
             </CardContent>
           </Card>
 
           <Card data-reveal className="reveal reveal-up">
             <CardHeader>
-              <CardTitle>Privacidad y seguridad</CardTitle>
+              <CardTitle>Hogares y brecha digital</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                El 66% de los equipos que despliegan IA incorporan privacidad diferencial, minimización de datos y monitoreo continuo como parte de sus protocolos éticos.
+                La UIT (2023) estima ~67% de la población mundial conectada y 2.6 mil millones de personas sin conexión, limitando la participación equitativa en beneficios de la IA.
               </p>
-              <p className="text-sm text-slate-500">Fuente: GDPR & privacy impact reports 2024.</p>
+              <p className="text-sm text-slate-500">Fuente: UIT 2023.</p>
             </CardContent>
           </Card>
 
           <Card data-reveal className="reveal reveal-up">
             <CardHeader>
-              <CardTitle>Sostenibilidad y gobernanza</CardTitle>
+              <CardTitle>Percepción social</CardTitle>
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                Un 47% de iniciativas mide su huella ambiental y publica tableros de gobernanza para garantizar que la innovación no comprometa a comunidades ni al planeta.
+                Encuestas de Pew Research (2023–2024) indican que, en EE. UU., predomina la preocupación sobre el entusiasmo por la IA, especialmente en usos de alto impacto como salud, vigilancia y trabajo.
               </p>
-              <p className="text-sm text-slate-500">Fuente: Observatorios de IA responsable 2024.</p>
+              <p className="text-sm text-slate-500">Fuente: Pew Research Center 2023–2024.</p>
             </CardContent>
           </Card>
         </div>
@@ -199,7 +199,7 @@ const AIStatsSection = () => {
         <div className="mt-14">
           <Card data-reveal className="reveal reveal-up">
             <CardHeader className="pb-2">
-            <CardTitle className="text-2xl font-serif">Crecimiento de iniciativas de ética y gobernanza</CardTitle>
+              <CardTitle className="text-2xl font-serif">Crecimiento del mercado de IA generativa</CardTitle>
             </CardHeader>
             <CardContent>
               <MarketGrowthChart />
@@ -214,52 +214,76 @@ const AIStatsSection = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6" data-stagger>
             <Card data-reveal className="reveal reveal-up">
               <CardHeader className="pb-2">
-                <CardTitle className="text-sm text-slate-500">Proyectos con auditorías éticas</CardTitle>
+                <CardTitle className="text-sm text-slate-500">Conectividad global (UIT 2023)</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="text-4xl font-bold text-slate-900">72%</div>
-                <p className="text-slate-600">Iniciativas de alto riesgo auditadas en 2024</p>
+                <div className="text-4xl font-bold text-slate-900">67%</div>
+                <p className="text-slate-600">Población conectada a Internet</p>
                 <div className="mt-3">
-                  <Progress value={72} aria-label="72% de proyectos con auditorías éticas" />
+                  <Progress value={67} aria-label="Población conectada" />
                 </div>
               </CardContent>
             </Card>
 
             <Card data-reveal className="reveal reveal-up">
               <CardHeader className="pb-2">
-                <CardTitle className="text-sm text-slate-500">Países con marcos regulatorios</CardTitle>
+                <CardTitle className="text-sm text-slate-500">Personas sin conexión (UIT 2023)</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="text-3xl font-bold text-slate-900">38</div>
-                <p className="text-slate-600">Naciones que incorporaron directrices éticas</p>
+                <div className="text-3xl font-bold text-slate-900">≈ 2.6 mil millones</div>
+                <p className="text-slate-600">Personas sin acceso a Internet</p>
                 <div className="mt-3">
-                  <Progress value={38} aria-label="38 países con marcos regulatorios" />
+                  <Progress value={33} aria-label="Población sin conexión (aprox.)" />
                 </div>
               </CardContent>
             </Card>
 
             <Card data-reveal className="reveal reveal-up">
               <CardHeader className="pb-2">
-                <CardTitle className="text-sm text-slate-500">Evaluaciones de impacto</CardTitle>
+                <CardTitle className="text-sm text-slate-500">Empleo (WEF 2023, 2023–2027)</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="text-4xl font-bold text-slate-900">150+</div>
-                <p className="text-slate-600">Agencias que usan evaluaciones de impacto algorítmico</p>
-                <div className="mt-3">
-                  <Progress value={75} aria-label="Adopción de evaluaciones de impacto" />
+                <div className="flex items-baseline gap-4">
+                  <div>
+                    <div className="text-2xl font-bold text-slate-900">83M</div>
+                    <p className="text-slate-600 text-sm">Desplazados</p>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-slate-900">69M</div>
+                    <p className="text-slate-600 text-sm">Creados</p>
+                  </div>
+                </div>
+                <div className="mt-3 space-y-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs w-16 text-slate-600">Despl.</span>
+                    <div className="flex-1"><Progress value={100} aria-label="83 millones desplazados (escala comparativa)" /></div>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs w-16 text-slate-600">Cread.</span>
+                    <div className="flex-1"><Progress value={Math.round((69/83)*100)} aria-label="69 millones creados (comparado con 83M)" /></div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
 
             <Card data-reveal className="reveal reveal-up">
               <CardHeader className="pb-2">
-                <CardTitle className="text-sm text-slate-500">Supervisión humana</CardTitle>
+                <CardTitle className="text-sm text-slate-500">Habilidades y productividad</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="text-3xl font-bold text-slate-900">81%</div>
-                <p className="text-slate-600">Despliegues con escalado humano obligatorio</p>
-                <div className="mt-3">
-                  <Progress value={81} aria-label="81% de supervisión humana" />
+                <div className="mb-3">
+                  <div className="flex items-center justify-between">
+                    <p className="text-slate-700 text-sm">Habilidades afectadas (WEF 2023)</p>
+                    <span className="font-semibold">44%</span>
+                  </div>
+                  <Progress value={44} aria-label="44% habilidades afectadas" />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between">
+                    <p className="text-slate-700 text-sm">Productividad (MIT 2023)</p>
+                    <span className="font-semibold">14%</span>
+                  </div>
+                  <Progress value={14} aria-label="14% mejora productividad" />
                 </div>
               </CardContent>
             </Card>
@@ -284,50 +308,50 @@ const AIStatsSection = () => {
                 </TableHeader>
                 <TableBody>
                   <TableRow>
-                    <TableCell>Auditorías éticas</TableCell>
-                    <TableCell>Proyectos revisados antes de su despliegue</TableCell>
-                    <TableCell>72%</TableCell>
-                    <TableCell>UNESCO</TableCell>
-                    <TableCell>2024</TableCell>
+                    <TableCell>Conectividad</TableCell>
+                    <TableCell>Población conectada</TableCell>
+                    <TableCell>67%</TableCell>
+                    <TableCell>UIT</TableCell>
+                    <TableCell>2023</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableCell>Regulación</TableCell>
-                    <TableCell>Países con marcos éticos o leyes de IA</TableCell>
-                    <TableCell>38</TableCell>
-                    <TableCell>OECD.AI</TableCell>
-                    <TableCell>2024</TableCell>
+                    <TableCell>Brecha</TableCell>
+                    <TableCell>Personas sin conexión</TableCell>
+                    <TableCell>≈ 2.6 mil millones</TableCell>
+                    <TableCell>UIT</TableCell>
+                    <TableCell>2023</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableCell>Evaluaciones</TableCell>
-                    <TableCell>Agencias con evaluaciones de impacto algorítmico</TableCell>
-                    <TableCell>150+</TableCell>
-                    <TableCell>UNESCO / EU AI Act</TableCell>
-                    <TableCell>2024</TableCell>
+                    <TableCell>Empleo</TableCell>
+                    <TableCell>Desplazados (2023–2027)</TableCell>
+                    <TableCell>≈ 83M</TableCell>
+                    <TableCell>WEF</TableCell>
+                    <TableCell>2023</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableCell>Supervisión</TableCell>
-                    <TableCell>Despliegues con intervención humana definida</TableCell>
-                    <TableCell>81%</TableCell>
-                    <TableCell>NIST</TableCell>
-                    <TableCell>2024</TableCell>
+                    <TableCell>Empleo</TableCell>
+                    <TableCell>Creados (2023–2027)</TableCell>
+                    <TableCell>≈ 69M</TableCell>
+                    <TableCell>WEF</TableCell>
+                    <TableCell>2023</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableCell>Privacidad</TableCell>
-                    <TableCell>Equipos con privacidad diferencial y minimización</TableCell>
-                    <TableCell>66%</TableCell>
-                    <TableCell>GDPR impact reports</TableCell>
-                    <TableCell>2024</TableCell>
+                    <TableCell>Habilidades</TableCell>
+                    <TableCell>Habilidades afectadas</TableCell>
+                    <TableCell>≈ 44%</TableCell>
+                    <TableCell>WEF</TableCell>
+                    <TableCell>2023</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableCell>Sostenibilidad</TableCell>
-                    <TableCell>Proyectos que monitorean huella ambiental</TableCell>
-                    <TableCell>47%</TableCell>
-                    <TableCell>Observatorios IA responsable</TableCell>
-                    <TableCell>2024</TableCell>
+                    <TableCell>Productividad</TableCell>
+                    <TableCell>Mejora promedio (redacción)</TableCell>
+                    <TableCell>≈ 14%</TableCell>
+                    <TableCell>MIT (Noy & Zhang)</TableCell>
+                    <TableCell>2023</TableCell>
                   </TableRow>
                 </TableBody>
                 <TableCaption>
-                  Indicadores propuestos para mostrar avances en ética, gobernanza y regulación; consultar informes originales para contextos metodológicos.
+                  Comparaciones ilustrativas; ver informes originales para detalles metodológicos y definiciones.
                 </TableCaption>
               </Table>
             </CardContent>
@@ -337,7 +361,7 @@ const AIStatsSection = () => {
         <div className="mt-10 text-sm text-slate-500">
           <p className="font-semibold">Nota metodológica</p>
           <p>
-            Las cifras consolidan reportes de UNESCO, OECD.AI, EU AI Act, NIST y observatorios de ética de datos. Las metodologías y muestras difieren; revisar los documentos originales para precisión.
+            Las cifras varían por país y sector. Consultar informes originales (UNESCO, OCDE, NIST, OMS, Stanford, UIT, WEF, OIT, Pew) para definiciones, muestras y márgenes de error.
           </p>
         </div>
       </div>

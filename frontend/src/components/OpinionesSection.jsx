@@ -94,10 +94,10 @@ export default function OpinionesSection() {
             Opiniones y Reflexiones
           </h2>
           <p className="text-slate-600 mt-2" data-reveal style={{ transitionDelay: '80ms' }}>
-            «La gobernanza es el puente que conecta derechos humanos, responsabilidad y tecnología», dice la Dra. Renata Silva del Observatorio UNESCO.
+            Comparte tus ideas sobre la etica de la IA. Los comentarios se guardan localmente en tu navegador.
           </p>
           <div className="mt-3 text-slate-500" data-reveal style={{ transitionDelay: '120ms' }}>
-            «Supervisión humana constante y sostenibilidad ambiental son pilares para que la IA avance sin dejar a nadie atrás», reflexiona el equipo de ética de datos del BID.
+            Este espacio esta pensado para compartir ideas y reflexiones eticas sobre la inteligencia artificial. Se respetuoso y constructivo en tus aportes.
           </div>
         </div>
 

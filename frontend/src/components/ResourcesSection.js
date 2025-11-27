@@ -17,20 +17,6 @@ const ResourcesSection = () => {
         link: 'https://unesdoc.unesco.org/ark:/48223/pf0000381137_spa'
       },
       {
-        title: 'Guía de Evaluación de Impacto Algorítmico',
-        authors: 'OECD.AI',
-        year: '2023',
-        description: 'Pasos prácticos para aplicar evaluaciones de impacto y alinearlos con los principios de la Recomendación UNESCO.',
-        link: 'https://www.oecd.org/going-digital/ai/algorithmic-impact-assessment/'
-      },
-      {
-        title: 'Toolbox de auditoría algorítmica',
-        authors: 'AlgorithmWatch',
-        year: '2023',
-        description: 'Plantillas reutilizables, ejemplos de métricas y preguntas clave para documentar auditorías éticas.',
-        link: 'https://algorithmwatch.org/en/ai-audit-toolbox/'
-      },
-      {
         title: 'Reglamento (UE) sobre IA (AI Act)',
         authors: 'Parlamento y Consejo de la UE',
         year: '2024',
@@ -140,7 +126,7 @@ const ResourcesSection = () => {
             Recursos
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Herramientas, organizaciones y materiales para profundizar en la ética de la inteligencia artificial, incluyendo guías de evaluación de impacto algorítmico, plantillas de auditoría y el enlace oficial a la Recomendación UNESCO.
+            Herramientas, organizaciones y materiales para profundizar en la ética de la inteligencia artificial
           </p>
         </div>
 

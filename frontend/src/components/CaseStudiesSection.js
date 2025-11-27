@@ -10,63 +10,131 @@ const CaseStudiesSection = () => {
   const caseStudies = [
     {
       id: 1,
-      title: 'Evaluaci�n de impacto �tico en plataformas de salud digital',
-      category: 'Evaluaciones �ticas',
-      year: '2023-2024',
-      summary: 'Ministerios de salud y universidades aplicaron una evaluaci�n guiada por la Recomendaci�n UNESCO para detectar sesgos en triage digital.',
-      description: 'La UNESCO facilit� una gu�a de impacto �tico que combin� an�lisis de datos, simulaciones cl�nicas y talleres comunitarios. El proceso identific� ajustes para garantizar acceso equitativo a la atenci�n primaria, especialmente para usuarios rurales, mujeres y personas mayores.',
+      title: 'Reconocimiento Facial y Sesgo Racial',
+      category: 'Sesgo Algorítmico',
+      year: '2018-2020',
+      summary: 'Estudios revelan tasas de error significativamente más altas en sistemas de reconocimiento facial para personas de color.',
+      description: 'Investigaciones de MIT y Stanford demostraron que sistemas comerciales de reconocimiento facial tienen tasas de error de hasta 34% más altas para mujeres de piel oscura comparado con hombres de piel clara. Empresas como Amazon, Microsoft e IBM enfrentaron críticas y algunas suspendieron temporalmente la venta de esta tecnología a policías. Este caso ilustra cómo los sesgos en datos de entrenamiento pueden perpetuar discriminación racial sistemática.',
       implications: [
-        'Reportes p�blicos de brechas de atenci�n y propuestas de mejora',
-        'Ajustes en umbrales para evitar exclusiones por g�nero o ubicaci�n',
-        'Mayor confianza ciudadana gracias a canales de retroalimentaci�n inclusivos'
+        'Arrestos erróneos basados en identificaciones incorrectas',
+        'Discriminación sistemática en sistemas de vigilancia',
+        'Pérdida de confianza pública en tecnologías de IA',
+        'Llamados a regulación gubernamental más estricta'
       ],
       lessons: [
-        'Integrar a personal cl�nico y pacientes en los criterios evaluados',
-        'Comunicar limitaciones y riesgos en lenguaje accesible',
-        'Monitorear y comparar resultados antes y despu�s del despliegue'
+        'Necesidad de datasets de entrenamiento diversos y representativos',
+        'Auditorías independientes antes del despliegue',
+        'Transparencia sobre limitaciones y tasas de error',
+        'Consideración de impactos desproporcionados en comunidades marginadas'
+      ],
+      image: 'https://images.unsplash.com/photo-1559137771-536eecb999ab?auto=format&fit=crop&w=1200&q=80'
+    },
+    {
+      id: 2,
+      title: 'Vehículos Autónomos: El Dilema Moral',
+      category: 'Toma de Decisiones Autónoma',
+      year: '2016-Presente',
+      summary: 'Los accidentes fatales de vehículos autónomos plantean preguntas sobre responsabilidad y programación de decisiones éticas.',
+      description: 'Varios incidentes, incluyendo el accidente fatal de Uber en 2018 en Arizona, han expuesto los desafíos éticos de los vehículos autónomos. ¿Cómo debe un vehículo decidir en situaciones donde el daño es inevitable? ¿Quién es responsable cuando falla el sistema: el fabricante, el desarrollador del software, o el "conductor"? El experimento "Máquina Moral" del MIT reveló diferencias culturales significativas en juicios éticos sobre estas decisiones.',
+      implications: [
+        'Necesidad de marcos legales claros sobre responsabilidad',
+        'Desafíos en la programación de dilemas éticos',
+        'Diferencias culturales en valores morales',
+        'Impacto en seguros y regulación vehicular'
+      ],
+      lessons: [
+        'Imposibilidad de codificar todas las situaciones éticas posibles',
+        'Importancia de mantener supervisión humana en sistemas críticos',
+        'Necesidad de transparencia en algoritmos de toma de decisiones',
+        'Desarrollo de estándares internacionales para sistemas autónomos'
+      ],
+      image: 'https://images.unsplash.com/photo-1694729101068-a2c621f877b4?auto=format&fit=crop&w=1200&q=80'
+    },
+    {
+      id: 3,
+      title: 'COMPAS: Sesgo en Justicia Predictiva',
+      category: 'Justicia y Equidad',
+      year: '2016',
+      summary: 'El algoritmo de predicción de reincidencia muestra sesgos raciales en el sistema de justicia criminal estadounidense.',
+      description: 'ProPublica reveló que COMPAS, un algoritmo usado por tribunales para predecir probabilidad de reincidencia, era significativamente más propenso a etiquetar falsamente a acusados negros como alto riesgo (45%) comparado con acusados blancos (23%). A pesar de que el algoritmo no usaba directamente la raza, variables correlacionadas resultaron en discriminación indirecta. Este caso generó debates sobre el uso de IA en decisiones judiciales.',
+      implications: [
+        'Perpetuación de sesgos sistémicos en el sistema judicial',
+        'Cuestionamiento de la "objetividad" algorítmica',
+        'Impacto desproporcionado en comunidades de color',
+        'Debates sobre debido proceso y derecho a explicación'
+      ],
+      lessons: [
+        'Los algoritmos pueden discriminar incluso sin usar características protegidas directamente',
+        'Necesidad de auditorías externas de sistemas de IA en contextos de alto riesgo',
+        'Importancia de considerar equidad junto con precisión',
+        'Valor de la supervisión humana en decisiones que afectan libertad individual'
+      ],
+      image: 'https://images.pexels.com/photos/8090125/pexels-photo-8090125.jpeg'
+    },
+    {
+      id: 4,
+      title: 'Cambridge Analytica y Manipulación Electoral',
+      category: 'Privacidad y Manipulación',
+      year: '2018',
+      summary: 'Uso no autorizado de datos de millones de usuarios de Facebook para influir en elecciones y referéndums.',
+      description: 'Cambridge Analytica recopiló datos de hasta 87 millones de usuarios de Facebook sin consentimiento explícito, usando perfiles psicológicos generados por IA para crear campañas políticas micro-dirigidas durante elecciones en EE.UU., Reino Unido y otros países. El escándalo expuso cómo los datos personales pueden ser explotados para manipular opinión pública y procesos democráticos, llevando a Facebook a enfrentar multas masivas y escrutinio regulatorio.',
+      implications: [
+        'Amenaza a la integridad de procesos democráticos',
+        'Violaciones masivas de privacidad de datos',
+        'Manipulación psicológica a escala sin precedentes',
+        'Crisis de confianza en plataformas de redes sociales'
+      ],
+      lessons: [
+        'Necesidad urgente de regulaciones de protección de datos (como GDPR)',
+        'Riesgos de permitir que datos personales se conviertan en mercancía',
+        'Importancia de consentimiento informado y transparencia',
+        'Responsabilidad de plataformas en proteger datos de usuarios'
+      ],
+      image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=1200&q=80'
+    },
+    {
+      id: 5,
+      title: 'IA en Diagnóstico Médico: Promesas y Riesgos',
+      category: 'Salud y Medicina',
+      year: '2019-Presente',
+      summary: 'Sistemas de IA demuestran alta precisión en diagnósticos, pero plantean preguntas sobre responsabilidad y acceso equitativo.',
+      description: 'Algoritmos de deep learning han mostrado capacidad para igualar o superar a radiólogos en detección de cáncer, enfermedades oculares y otras condiciones. Sin embargo, estudios revelan que muchos modelos funcionan peor en poblaciones subrepresentadas en datos de entrenamiento. El caso del algoritmo de salud de UnitedHealth que favorecía a pacientes blancos sobre negros con necesidades de salud similares destacó riesgos de sesgo en IA médica.',
+      implications: [
+        'Potencial para mejorar acceso y precisión de diagnósticos',
+        'Riesgo de ampliar disparidades existentes en atención médica',
+        'Preguntas sobre responsabilidad en errores diagnósticos',
+        'Necesidad de validación rigurosa antes de implementación clínica'
+      ],
+      lessons: [
+        'Validación en poblaciones diversas es crítica',
+        'IA debe complementar, no reemplazar, juicio médico humano',
+        'Transparencia sobre cómo funcionan los algoritmos es esencial para confianza',
+        'Regulación debe equilibrar innovación con seguridad del paciente'
       ],
       image: 'https://images.pexels.com/photos/8439076/pexels-photo-8439076.jpeg'
     },
     {
-      id: 2,
-      title: 'Certificaci�n global de IA responsable',
-      category: 'Certificaci�n',
-      year: '2024',
-      summary: 'Una alianza UNESCO-OECD certific� algoritmos de gesti�n p�blica con base en criterios de la Recomendaci�n.',
-      description: 'El sello Global AI Responsibility (GAR) evalu� documentaci�n, auditor�as y pruebas de impacto de soluciones de contrataci�n p�blica en Am�rica Latina y �frica, exigiendo transparencia en datos, modelos y gobernanza. Las organizaciones recibieron un plan de mejora continua y divulgaci�n p�blica de resultados.',
+      id: 6,
+      title: 'Deepfakes: De Entretenimiento a Amenaza',
+      category: 'Desinformación',
+      year: '2020-Presente',
+      summary: 'Videos y audio generados por IA crean desafíos para verificación de autenticidad y confianza en medios.',
+      description: 'La tecnología deepfake ha evolucionado de curiosidad técnica a herramienta para desinformación, acoso y fraude. Casos incluyen videos falsos de políticos, pornografía no consensuada de celebridades, y fraudes empresariales donde criminales imitaron voces de ejecutivos para aprobar transferencias financieras. La facilidad creciente de crear deepfakes convincentes plantea desafíos existenciales para confianza en evidencia audiovisual.',
       implications: [
-        'Incremento de confianza en licitaciones con IA',
-        'Requisitos de reporte obligatorios sobre riesgos y remediaciones',
-        'Menor resistencia regulatoria gracias a evidencia trazable'
+        'Erosión de confianza en evidencia audiovisual',
+        'Nuevas formas de acoso y abuso, especialmente contra mujeres',
+        'Amenaza a integridad electoral y discurso público',
+        'Desafíos para verificación periodística y judicial'
       ],
       lessons: [
-        'Certificar modelos con auditor�as internas y externas combinadas',
-        'Documentar datasets y gobernanza para facilitar replicabilidad',
-        'Ofrecer capacitaci�n y rutas de mejora autom�tica para los equipos certificados'
+        'Necesidad urgente de tecnologías de detección de deepfakes',
+        'Importancia de alfabetización mediática pública',
+        'Marcos legales deben abordar creación y distribución maliciosa',
+        'Plataformas tecnológicas deben implementar medidas de autenticación'
       ],
-      image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1200&q=80'
-    },
-    {
-      id: 3,
-      title: 'Observatorio UNESCO de la �tica de la IA en Am�rica Latina',
-      category: 'Observatorio UNESCO',
-      year: '2021-2025',
-      summary: 'Re�ne gobiernos, academia y sociedad civil para monitorear c�mo se aplican los principios de la Recomendaci�n.',
-      description: 'El Observatorio publica dashboards trimestrales que cruzan datos sobre derechos humanos, inclusi�n y transparencia, generando alertas tempranas y recomendaciones regionales. Sus informes alimentan pol�ticas p�blicas y fortalecen observatorios locales que replican los mismos ejes.',
-      implications: [
-        'Protocolos de rendici�n de cuentas con participaci�n ciudadana',
-        'Mapeo de riesgos �ticos para municipios y regiones',
-        'Capacitaci�n masiva en supervisi�n humana y documentaci�n de procesos'
-      ],
-      lessons: [
-        'Mantener canales abiertos con comunidades afectadas y audiencias locales',
-        'Traducir principios UNESCO en herramientas pr�cticas y contextuales',
-        'Documentar avances para replicar observatorios en otras regiones'
-      ],
-      image: 'https://images.unsplash.com/photo-1559137771-536eecb999ab?auto=format&fit=crop&w=1200&q=80'
+      image: 'https://images.unsplash.com/photo-1595666944516-bbb485958fb5?auto=format&fit=crop&w=1200&q=80'
     }
   ];
-
 
   return (
     <section id="casos-estudio" className="py-20 bg-slate-50">

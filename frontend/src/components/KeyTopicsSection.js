@@ -8,62 +8,61 @@ const KeyTopicsSection = () => {
   const topics = [
     {
       icon: Scale,
-      title: 'Derechos Humanos',
-      description: 'Asegurar dignidad, libertad y no discriminaci髇 en cada despliegue de IA',
-      content:
-        'UNESCO posiciona los derechos humanos como eje central: significa garantizar que acceso, decisiones y respuestas automatizadas no vulneren la libertad de expresi髇, la igualdad de g閚ero ni el derecho a un juicio justo. Incorporar controles de derechos, reparaciones y participaci髇 comunitaria fortalece la legitimidad de la IA.',
+      title: 'Sesgo y Equidad',
+      description: 'Identificaci贸n y mitigaci贸n de sesgos algor铆tmicos en sistemas de IA',
+      content: 'Los sistemas de IA pueden heredar y amplificar sesgos existentes en los datos de entrenamiento, resultando en discriminaci贸n sistem谩tica contra grupos espec铆ficos. Es fundamental desarrollar metodolog铆as para detectar, medir y corregir estos sesgos, asegurando que los sistemas de IA tomen decisiones justas e imparciales independientemente de caracter铆sticas como raza, g茅nero, edad o condici贸n socioecon贸mica.',
       image: 'https://images.unsplash.com/photo-1607074245269-848539fe3335?auto=format&fit=crop&w=1000&q=80'
     },
     {
-      icon: Users,
-      title: 'Inclusi髇',
-      description: 'Dise馻r IA que refleje y atienda a todas las comunidades',
-      content:
-        'El eje de inclusi髇 busca cerrar brechas: implica acceso equitativo a datos, infraestructuras, educaci髇 y oportunidades generadas por IA. Los sistemas deben ser sensibles a contextos culturales, geogr醘icos y de g閚ero para evitar reproducir desigualdades, garantizando que los beneficios lleguen a poblaciones hist髍icamente marginadas.',
+      icon: Shield,
+      title: 'Privacidad y Protecci贸n de Datos',
+      description: 'Salvaguardar la informaci贸n personal en la era de la IA',
+      content: 'Los sistemas de IA requieren grandes cantidades de datos para funcionar efectivamente, lo que plantea serias preocupaciones sobre la privacidad. Es esencial implementar t茅cnicas como el aprendizaje federado, la privacidad diferencial y el cifrado homom贸rfico para proteger los datos personales mientras se mantiene la utilidad del modelo. Las organizaciones deben cumplir con regulaciones como GDPR y establecer pol铆ticas claras sobre recopilaci贸n, uso y almacenamiento de datos.',
       image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Eye,
-      title: 'Transparencia',
-      description: 'Explicaciones claras y trazabilidad en decisiones algor韙micas',
-      content:
-        'Transparencia implica documentar datos, modelos y procesos de toma de decisi髇. UNESCO recomienda comunicar limitaciones, supuestos y riesgos a todas las personas afectadas, permitiendo revisiones independientes y aumentando la confianza p鷅lica. La IA transparente facilita la supervisi髇 humana y el cumplimiento de est醤dares 閠icos.',
+      title: 'Transparencia y Explicabilidad',
+      description: 'Comprender c贸mo los sistemas de IA toman decisiones',
+      content: 'La "caja negra" de muchos sistemas de IA presenta desaf铆os 茅ticos significativos. La explicabilidad (XAI) busca hacer que las decisiones de IA sean comprensibles para los humanos. Esto es especialmente cr铆tico en aplicaciones de alto riesgo como diagn贸sticos m茅dicos, decisiones judiciales y aprobaci贸n de cr茅ditos, donde las personas afectadas tienen derecho a entender por qu茅 se tom贸 una decisi贸n espec铆fica.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
     },
     {
-      icon: Shield,
-      title: 'Responsabilidad',
-      description: 'Establecer cadenas claras de rendici髇 y reparaci髇',
-      content:
-        'Responsabilidad significa definir qui閚 responde cuando un sistema causa da駉, desde desarrolladores hasta decisores p鷅licos. La UNESCO impulsa auditor韆s, comit閟 de 閠ica y mecanismos de monitoreo continuo para que las organizaciones puedan corregir sesgos, actualizar modelos y rendir cuentas de forma proporcional al riesgo.',
+      icon: Users,
+      title: 'Responsabilidad y Rendici贸n de Cuentas',
+      description: 'Establecer marcos de responsabilidad para sistemas aut贸nomos',
+      content: 'Cuando un sistema de IA causa da帽o, surge la pregunta: 驴qui茅n es responsable? Los marcos de rendici贸n de cuentas deben abordar la cadena de responsabilidad desde desarrolladores, organizaciones implementadoras hasta usuarios finales. Se necesitan mecanismos legales y regulatorios claros para establecer responsabilidad, junto con sistemas de auditor铆a y supervisi贸n continua del rendimiento de la IA.',
       image: 'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?auto=format&fit=crop&w=1000&q=80'
     },
     {
+      icon: Briefcase,
+      title: 'Impacto Laboral y Social',
+      description: 'Consecuencias de la automatizaci贸n en el empleo y la sociedad',
+      content: 'La automatizaci贸n impulsada por IA est谩 transformando el mercado laboral, eliminando ciertos trabajos mientras crea otros nuevos. Es crucial desarrollar pol铆ticas que apoyen la transici贸n laboral, programas de reentrenamiento y redes de seguridad social. Tambi茅n debemos considerar c贸mo la IA afecta la desigualdad econ贸mica y garantizar que los beneficios de la tecnolog铆a se distribuyan equitativamente.',
+      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
+    },
+    {
       icon: Camera,
-      title: 'Privacidad',
-      description: 'Proteger datos personales y derechos digitales en todo momento',
-      content:
-        'Este eje enfatiza la privacidad desde la recolecci髇 hasta la eliminaci髇 de datos. La UNESCO recomienda evaluaciones de impacto de privacidad, t閏nicas como el aprendizaje federado y transparencia sobre usos secundarios, para que la confianza digital se mantenga incluso cuando los sistemas aprenden de vidas privadas.',
+      title: 'Vigilancia y Control',
+      description: 'Balance entre seguridad y derechos civiles',
+      content: 'Las tecnolog铆as de IA como el reconocimiento facial y an谩lisis de comportamiento permiten niveles de vigilancia sin precedentes. Esto plantea preocupaciones sobre privacidad, libertad de expresi贸n y potencial abuso por gobiernos autoritarios. Es necesario establecer l铆mites claros sobre el uso de tecnolog铆as de vigilancia, garantizar supervisi贸n democr谩tica y proteger los derechos fundamentales.',
       image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: AlertTriangle,
-      title: 'Sostenibilidad',
-      description: 'Medir el impacto ambiental y social de las tecnolog韆s de IA',
-      content:
-        'La sostenibilidad conecta la IA con los l韒ites planetarios y sociales: se trata de presupuestar consumo energ閠ico, reducir dependencia de infraestructuras extractivas y considerar efectos a largo plazo en comunidades. UNESCO recomienda indicadores ambientales y auditor韆s sociales para evitar que la eficiencia t閏nica genere externalidades negativas.',
-      image: 'https://images.unsplash.com/photo-1694729101068-a2c621f877b4?auto=format&fit=crop&w=1000&q=80'
+      title: 'Deepfakes y Desinformaci贸n',
+      description: 'Combatir la manipulaci贸n medi谩tica generada por IA',
+      content: 'Los deepfakes y contenido sint茅tico generado por IA presentan amenazas significativas a la integridad de la informaci贸n. Pueden usarse para difundir desinformaci贸n, manipular elecciones, cometer fraude y da帽ar reputaciones. Se necesitan soluciones t茅cnicas para detectar contenido manipulado, marcos legales para penalizar el uso malicioso, y educaci贸n p煤blica sobre alfabetizaci贸n medi谩tica.',
+      image: 'https://images.unsplash.com/photo-1595666944516-bbb485958fb5?auto=format&fit=crop&w=1000&q=80'
     },
     {
-      icon: Briefcase,
-      title: 'Gobernanza',
-      description: 'Marcos participativos, inclusivos y multilaterales',
-      content:
-        'Gobernanza significa establecer reglas compartidas, supervisi髇 humana y participaci髇 de personas afectadas. UNESCO propone marcos globales y regionales que combinan legislaci髇, est醤dares voluntarios y cooperaci髇 internacional para anticipar riesgos sin frenar la innovaci髇 responsable.',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
+      icon: Cpu,
+      title: 'Sistemas Aut贸nomos',
+      description: '脡tica de la toma de decisiones automatizada',
+      content: 'Los sistemas aut贸nomos, desde veh铆culos sin conductor hasta armas aut贸nomas, plantean dilemas 茅ticos complejos. 驴C贸mo deben tomar decisiones de vida o muerte? 驴Qu茅 nivel de autonom铆a es apropiado en diferentes contextos? Se necesitan directrices 茅ticas claras, supervisi贸n humana significativa y prohibiciones en aplicaciones que violen derechos humanos fundamentales.',
+      image: 'https://images.unsplash.com/photo-1694729101068-a2c621f877b4?auto=format&fit=crop&w=1000&q=80'
     }
   ];
-
 
   return (
     <section id="temas-claves" className="py-20 bg-white">
