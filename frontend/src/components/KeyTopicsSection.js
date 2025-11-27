@@ -9,41 +9,41 @@ const KeyTopicsSection = () => {
     {
       icon: Scale,
       title: 'Sesgo y Equidad',
-      description: 'Detecci?n y correcci?n de sesgos algor?tmicos en modelos de IA',
+      description: 'Detección y corrección de sesgos algorítmicos en modelos de IA',
       content:
-        'Los sistemas de IA pueden reproducir prejuicios presentes en los datos y en las decisiones humanas. Por eso necesitamos detectar, medir y corregir esos sesgos para garantizar que las decisiones sean equitativas sin importar raza, g?nero, edad o condici?n socioecon?mica.',
+        'Los sistemas de IA pueden reproducir prejuicios presentes en los datos y en las decisiones humanas. Por eso necesitamos detectar, medir y corregir esos sesgos para garantizar que las decisiones sean equitativas sin importar raza, género, edad o condición socioeconómica.',
       image: 'https://images.unsplash.com/photo-1607074245269-848539fe3335?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Shield,
-      title: 'Privacidad y Protecci?n de Datos',
-      description: 'Protecci?n de datos personales frente al uso masivo de IA',
+      title: 'Privacidad y Protección de Datos',
+      description: 'Protección de datos personales frente al uso masivo de IA',
       content:
-        'La IA exige grandes vol?menes de datos personales y multiplica los riesgos de exposici?n. Por eso es clave aplicar aprendizaje federado, privacidad diferencial o cifrado homom?rfico, y mantener pol?ticas claras que respeten GDPR y el principio de minimizaci?n.',
+        'La IA exige grandes volúmenes de datos personales y multiplica los riesgos de exposición. Por eso es clave aplicar aprendizaje federado, privacidad diferencial o cifrado homomórfico, y mantener políticas claras que respeten el GDPR y el principio de minimización.',
       image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Eye,
       title: 'Transparencia y Explicabilidad',
-      description: 'Comprender c?mo los modelos opacos toman decisiones',
+      description: 'Comprender cómo los modelos opacos toman decisiones',
       content:
-        'El car?cter opaco de muchos modelos impide entender por qu? se rechaza un cr?dito o se diagnostica una enfermedad. La explicabilidad busca hacer visible ese proceso y devolver a las personas el derecho a comprender el impacto de la IA sobre su vida.',
+        'El carácter opaco de muchos modelos impide entender por qué se rechaza un crédito o se diagnostica una enfermedad. La explicabilidad busca hacer visible ese proceso y devolver a las personas el derecho a comprender el impacto de la IA sobre su vida.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Users,
-      title: 'Responsabilidad y Rendici?n de Cuentas',
-      description: 'Establecer marcos de responsabilidad para sistemas aut?nomos',
+      title: 'Responsabilidad y Rendición de Cuentas',
+      description: 'Establecer marcos de responsabilidad para sistemas autónomos',
       content:
-        'Cuando un sistema causa da?o es necesario rastrear la cadena de responsabilidad entre desarrolladores, organizaciones implementadoras y usuarios. Las normas, auditor?as y supervisi?n continua fortalecen la rendici?n de cuentas antes y despu?s del despliegue.',
+        'Cuando un sistema causa daño es necesario rastrear la cadena de responsabilidad entre desarrolladores, organizaciones implementadoras y usuarios. Las normas, auditorías y supervisión continua fortalecen la rendición de cuentas antes y después del despliegue.',
       image: 'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Briefcase,
       title: 'Impacto Laboral y Social',
-      description: 'Consecuencias de la automatizaci?n en el empleo y la sociedad',
+      description: 'Consecuencias de la automatización en el empleo y la sociedad',
       content:
-        'La automatizaci?n redistribuye tareas: desplaza ocupaciones rutinarias y crea nichos nuevos. Son necesarias pol?ticas de transici?n, reentrenamiento y redes de protecci?n para que los beneficios de la IA se distribuyan con equidad.',
+        'La automatización redistribuye tareas: desplaza ocupaciones rutinarias y crea nichos nuevos. Son necesarias políticas de transición, reentrenamiento y redes de protección para que los beneficios de la IA se distribuyan con equidad.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
     },
     {
@@ -51,23 +51,23 @@ const KeyTopicsSection = () => {
       title: 'Vigilancia y Control',
       description: 'Balance entre seguridad y derechos civiles',
       content:
-        'Herramientas como el reconocimiento facial permiten vigilancia masiva y tensionan libertades civiles. Hace falta acordar l?mites democr?ticos, transparencia institucional y controles legales que eviten abusos.',
+        'Herramientas como el reconocimiento facial permiten vigilancia masiva y tensionan libertades civiles. Hace falta acordar límites democráticos, transparencia institucional y controles legales que eviten abusos.',
       image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: AlertTriangle,
-      title: 'Deepfakes y Desinformaci?n',
-      description: 'Combatir la manipulaci?n medi?tica generada por IA',
+      title: 'Deepfakes y Desinformación',
+      description: 'Combatir la manipulación mediática generada por IA',
       content:
-        'Los deepfakes y contenidos sint?ticos erosionan la confianza en la informaci?n p?blica. Se necesitan herramientas de detecci?n, marcos legales contra usos maliciosos y alfabetizaci?n cr?tica para reconocer se?ales de manipulaci?n.',
+        'Los deepfakes y contenidos sintéticos erosionan la confianza en la información pública. Se necesitan herramientas de detección, marcos legales contra usos maliciosos y alfabetización crítica para reconocer señales de manipulación.',
       image: 'https://images.unsplash.com/photo-1595666944516-bbb485958fb5?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Cpu,
-      title: 'Sistemas Aut?nomos',
-      description: '?tica de la toma de decisiones automatizada',
+      title: 'Sistemas Autónomos',
+      description: 'Ética de la toma de decisiones automatizada',
       content:
-        'Desde veh?culos sin conductor hasta sistemas letales, los sistemas aut?nomos deben operar con supervisi?n humana, directivas ?ticas claras y prohibiciones donde se comprometan derechos fundamentales.',
+        'Desde vehículos sin conductor hasta sistemas letales, los sistemas autónomos deben operar con supervisión humana, directivas éticas claras y prohibiciones donde se comprometan derechos fundamentales.',
       image: 'https://images.unsplash.com/photo-1694729101068-a2c621f877b4?auto=format&fit=crop&w=1000&q=80'
     }
   ];
