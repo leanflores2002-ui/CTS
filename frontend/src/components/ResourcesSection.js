@@ -187,17 +187,17 @@ const ResourcesSection = () => {
           }}
         >
           <TabsList className="grid w-full grid-cols-3 lg:grid-cols-3 mb-8">
-            <TabsTrigger value="organizations" className="flex items-center space-x-2">
+            <TabsTrigger value="organizations" className="flex items-center space-x-2" aria-label="Organizaciones">
               <Users size={16} />
-              <span className="hidden sm:inline">Organizaciones</span>
+              <span className="sm:inline">Organizaciones</span>
             </TabsTrigger>
-            <TabsTrigger value="papers" className="flex items-center space-x-2">
+            <TabsTrigger value="papers" className="flex items-center space-x-2" aria-label="Recursos de información">
               <FileText size={16} />
-              <span className="hidden sm:inline">Recursos de información</span>
+              <span className="sm:inline">Recursos de información</span>
             </TabsTrigger>
-            <TabsTrigger value="books" className="flex items-center space-x-2">
+            <TabsTrigger value="books" className="flex items-center space-x-2" aria-label="Libros recomendados">
               <BookOpen size={16} />
-              <span className="hidden sm:inline">Libros</span>
+              <span className="sm:inline">Libros</span>
             </TabsTrigger>
           </TabsList>
 
