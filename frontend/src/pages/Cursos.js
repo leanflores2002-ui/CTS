@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -13,8 +14,8 @@ export default function Cursos() {
         <section className="py-20 w-full">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-serif font-bold text-slate-900">🎓 Cursos</h1>
-              <p className="text-slate-600 text-lg mt-4">Formación recomendada en ética y responsabilidad en IA.</p>
+              <h1 className="text-4xl md:text-5xl font-serif font-bold text-slate-900">Cursos</h1>
+              <p className="text-slate-600 text-lg mt-4">Formacion recomendada en etica y responsabilidad en IA.</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-4" data-stagger>
@@ -26,12 +27,19 @@ export default function Cursos() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl font-serif text-slate-900">Ethics of AI</CardTitle>
-                      <CardDescription className="text-slate-600">Harvard University • Universitario</CardDescription>
+                      <CardDescription className="text-slate-600">Harvard University - Programa universitario en etica de la IA</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <a href="https://online.hbs.edu/courses/ethics-of-ai/" target="_blank" rel="noopener noreferrer" className="text-slate-900 hover:text-slate-700 font-medium">Ver curso →</a>
+                  <a
+                    href="https://online.hbs.edu/courses/ethics-of-ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-900 hover:text-slate-700 font-medium"
+                  >
+                    Ver curso ->
+                  </a>
                 </CardContent>
               </Card>
 
@@ -43,12 +51,19 @@ export default function Cursos() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl font-serif text-slate-900">AI For Everyone</CardTitle>
-                      <CardDescription className="text-slate-600">DeepLearning.AI (Coursera) • Introductorio</CardDescription>
+                      <CardDescription className="text-slate-600">DeepLearning.AI (Coursera) - Curso introductorio sobre impacto social</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <a href="https://www.coursera.org/learn/ai-for-everyone" target="_blank" rel="noopener noreferrer" className="text-slate-900 hover:text-slate-700 font-medium">Ver curso →</a>
+                  <a
+                    href="https://www.coursera.org/learn/ai-for-everyone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-900 hover:text-slate-700 font-medium"
+                  >
+                    Ver curso ->
+                  </a>
                 </CardContent>
               </Card>
             </div>

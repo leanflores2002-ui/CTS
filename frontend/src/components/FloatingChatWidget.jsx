@@ -129,9 +129,9 @@ function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 function buildFallback(sections) {
   const headings = [...new Set(sections.map((s) => s.heading).filter(Boolean))].slice(0, 4);
   const base = pick([
-    'Puedo ayudarte con lo que aparece en esta página.',
-    'Respondo usando el contenido visible aquí.',
-    'Estoy enfocado en esta página para darte respuestas precisas.'
+    'Puedo ayudarte con lo que aparece en esta p?gina.',
+    'Respondo utilizando el contenido visible en esta p?gina.',
+    'Estoy enfocado en esta p?gina para darte respuestas precisas.'
   ]);
   const prompt = headings.length ? ` Decime una palabra clave o elegí una sección: ${headings.join(' · ')}.` : ' Decime una palabra clave o sección.';
   return base + prompt;
@@ -205,7 +205,7 @@ export default function FloatingChatWidget() {
           {
             role: 'bot',
             text:
-              'Puedo responder tus dudas sobre cualquiera de las secciones del sitio. Preguntame lo que quieras sobre la ética de la inteligencia artificial.',
+              'Puedo responder tus dudas sobre cualquiera de las secciones del sitio. Preguntáme lo que quieras sobre la ética de la inteligencia artificial.',
             _intro2: true,
           },
         ];

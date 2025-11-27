@@ -65,7 +65,7 @@ export default function OpinionesSection() {
     const item = { id: Date.now(), name: n, text: t, ts: new Date().toISOString() };
     setItems((prev) => [...prev, item]);
     setLastAddedId(item.id);
-    try { toast({ title: 'Comentario agregado con exito' }); } catch {}
+    try { toast({ title: 'Comentario agregado con ?xito' }); } catch {}
     setText('');
   };
 
@@ -79,7 +79,7 @@ export default function OpinionesSection() {
   }, [items, sort]);
 
   const clearAll = () => {
-    const ok = window.confirm('Borrar todos los comentarios locales? Esta accion no se puede deshacer.');
+    const ok = window.confirm('?Borrar todos los comentarios locales? Esta acci?n no se puede deshacer.');
     if (!ok) return;
     setItems([]);
     setLastAddedId(null);
@@ -94,10 +94,10 @@ export default function OpinionesSection() {
             Opiniones y Reflexiones
           </h2>
           <p className="text-slate-600 mt-2" data-reveal style={{ transitionDelay: '80ms' }}>
-            Comparte tus ideas sobre la etica de la IA. Los comentarios se guardan localmente en tu navegador.
+            Comparte tus ideas sobre la ?tica de la IA. Los comentarios se guardan localmente en tu navegador.
           </p>
           <div className="mt-3 text-slate-500" data-reveal style={{ transitionDelay: '120ms' }}>
-            Este espacio esta pensado para compartir ideas y reflexiones eticas sobre la inteligencia artificial. Se respetuoso y constructivo en tus aportes.
+            Este espacio est? pensado para compartir ideas y reflexiones ?ticas sobre la inteligencia artificial. S? respetuoso y constructivo en tus aportes.
           </div>
         </div>
 
@@ -107,8 +107,8 @@ export default function OpinionesSection() {
             <div className="flex items-center gap-3">
               <label htmlFor="opiniones-sort" className="text-sm text-slate-400">Ordenar</label>
               <select id="opiniones-sort" value={sort} onChange={(e) => setSort(e.target.value)} className="text-sm bg-transparent border border-slate-300 rounded-md px-2 py-1 text-slate-200">
-                <option value="desc">Mas recientes</option>
-                <option value="asc">Mas antiguos</option>
+                <option value="desc">Más recientes</option>
+                <option value="asc">Más antiguos</option>
               </select>
               {hasItems && (
                 <button onClick={clearAll} className="text-sm px-2 py-1 rounded-md border border-slate-300 hover:bg-slate-800 text-slate-100">Borrar todo</button>
@@ -139,7 +139,7 @@ export default function OpinionesSection() {
                 ))}
               </div>
             ) : (
-              <div className="text-slate-300">Aun no hay comentarios. Se la primera persona en opinar!</div>
+              <div className="text-slate-300">A?n no hay comentarios. S? la primera persona en opinar!</div>
             )}
           </div>
 

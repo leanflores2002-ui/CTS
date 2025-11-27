@@ -9,60 +9,69 @@ const KeyTopicsSection = () => {
     {
       icon: Scale,
       title: 'Sesgo y Equidad',
-      description: 'Identificación y mitigación de sesgos algorítmicos en sistemas de IA',
-      content: 'Los sistemas de IA pueden heredar y amplificar sesgos existentes en los datos de entrenamiento, resultando en discriminación sistemática contra grupos específicos. Es fundamental desarrollar metodologías para detectar, medir y corregir estos sesgos, asegurando que los sistemas de IA tomen decisiones justas e imparciales independientemente de características como raza, género, edad o condición socioeconómica.',
+      description: 'Detecci?n y correcci?n de sesgos algor?tmicos en modelos de IA',
+      content:
+        'Los sistemas de IA pueden reproducir prejuicios presentes en los datos y en las decisiones humanas. Por eso necesitamos detectar, medir y corregir esos sesgos para garantizar que las decisiones sean equitativas sin importar raza, g?nero, edad o condici?n socioecon?mica.',
       image: 'https://images.unsplash.com/photo-1607074245269-848539fe3335?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Shield,
-      title: 'Privacidad y Protección de Datos',
-      description: 'Salvaguardar la información personal en la era de la IA',
-      content: 'Los sistemas de IA requieren grandes cantidades de datos para funcionar efectivamente, lo que plantea serias preocupaciones sobre la privacidad. Es esencial implementar técnicas como el aprendizaje federado, la privacidad diferencial y el cifrado homomórfico para proteger los datos personales mientras se mantiene la utilidad del modelo. Las organizaciones deben cumplir con regulaciones como GDPR y establecer políticas claras sobre recopilación, uso y almacenamiento de datos.',
+      title: 'Privacidad y Protecci?n de Datos',
+      description: 'Protecci?n de datos personales frente al uso masivo de IA',
+      content:
+        'La IA exige grandes vol?menes de datos personales y multiplica los riesgos de exposici?n. Por eso es clave aplicar aprendizaje federado, privacidad diferencial o cifrado homom?rfico, y mantener pol?ticas claras que respeten GDPR y el principio de minimizaci?n.',
       image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Eye,
       title: 'Transparencia y Explicabilidad',
-      description: 'Comprender cómo los sistemas de IA toman decisiones',
-      content: 'La "caja negra" de muchos sistemas de IA presenta desafíos éticos significativos. La explicabilidad (XAI) busca hacer que las decisiones de IA sean comprensibles para los humanos. Esto es especialmente crítico en aplicaciones de alto riesgo como diagnósticos médicos, decisiones judiciales y aprobación de créditos, donde las personas afectadas tienen derecho a entender por qué se tomó una decisión específica.',
+      description: 'Comprender c?mo los modelos opacos toman decisiones',
+      content:
+        'El car?cter opaco de muchos modelos impide entender por qu? se rechaza un cr?dito o se diagnostica una enfermedad. La explicabilidad busca hacer visible ese proceso y devolver a las personas el derecho a comprender el impacto de la IA sobre su vida.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Users,
-      title: 'Responsabilidad y Rendición de Cuentas',
-      description: 'Establecer marcos de responsabilidad para sistemas autónomos',
-      content: 'Cuando un sistema de IA causa daño, surge la pregunta: ¿quién es responsable? Los marcos de rendición de cuentas deben abordar la cadena de responsabilidad desde desarrolladores, organizaciones implementadoras hasta usuarios finales. Se necesitan mecanismos legales y regulatorios claros para establecer responsabilidad, junto con sistemas de auditoría y supervisión continua del rendimiento de la IA.',
+      title: 'Responsabilidad y Rendici?n de Cuentas',
+      description: 'Establecer marcos de responsabilidad para sistemas aut?nomos',
+      content:
+        'Cuando un sistema causa da?o es necesario rastrear la cadena de responsabilidad entre desarrolladores, organizaciones implementadoras y usuarios. Las normas, auditor?as y supervisi?n continua fortalecen la rendici?n de cuentas antes y despu?s del despliegue.',
       image: 'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Briefcase,
       title: 'Impacto Laboral y Social',
-      description: 'Consecuencias de la automatización en el empleo y la sociedad',
-      content: 'La automatización impulsada por IA está transformando el mercado laboral, eliminando ciertos trabajos mientras crea otros nuevos. Es crucial desarrollar políticas que apoyen la transición laboral, programas de reentrenamiento y redes de seguridad social. También debemos considerar cómo la IA afecta la desigualdad económica y garantizar que los beneficios de la tecnología se distribuyan equitativamente.',
+      description: 'Consecuencias de la automatizaci?n en el empleo y la sociedad',
+      content:
+        'La automatizaci?n redistribuye tareas: desplaza ocupaciones rutinarias y crea nichos nuevos. Son necesarias pol?ticas de transici?n, reentrenamiento y redes de protecci?n para que los beneficios de la IA se distribuyan con equidad.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Camera,
       title: 'Vigilancia y Control',
       description: 'Balance entre seguridad y derechos civiles',
-      content: 'Las tecnologías de IA como el reconocimiento facial y análisis de comportamiento permiten niveles de vigilancia sin precedentes. Esto plantea preocupaciones sobre privacidad, libertad de expresión y potencial abuso por gobiernos autoritarios. Es necesario establecer límites claros sobre el uso de tecnologías de vigilancia, garantizar supervisión democrática y proteger los derechos fundamentales.',
+      content:
+        'Herramientas como el reconocimiento facial permiten vigilancia masiva y tensionan libertades civiles. Hace falta acordar l?mites democr?ticos, transparencia institucional y controles legales que eviten abusos.',
       image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: AlertTriangle,
-      title: 'Deepfakes y Desinformación',
-      description: 'Combatir la manipulación mediática generada por IA',
-      content: 'Los deepfakes y contenido sintético generado por IA presentan amenazas significativas a la integridad de la información. Pueden usarse para difundir desinformación, manipular elecciones, cometer fraude y dañar reputaciones. Se necesitan soluciones técnicas para detectar contenido manipulado, marcos legales para penalizar el uso malicioso, y educación pública sobre alfabetización mediática.',
+      title: 'Deepfakes y Desinformaci?n',
+      description: 'Combatir la manipulaci?n medi?tica generada por IA',
+      content:
+        'Los deepfakes y contenidos sint?ticos erosionan la confianza en la informaci?n p?blica. Se necesitan herramientas de detecci?n, marcos legales contra usos maliciosos y alfabetizaci?n cr?tica para reconocer se?ales de manipulaci?n.',
       image: 'https://images.unsplash.com/photo-1595666944516-bbb485958fb5?auto=format&fit=crop&w=1000&q=80'
     },
     {
       icon: Cpu,
-      title: 'Sistemas Autónomos',
-      description: 'Ética de la toma de decisiones automatizada',
-      content: 'Los sistemas autónomos, desde vehículos sin conductor hasta armas autónomas, plantean dilemas éticos complejos. ¿Cómo deben tomar decisiones de vida o muerte? ¿Qué nivel de autonomía es apropiado en diferentes contextos? Se necesitan directrices éticas claras, supervisión humana significativa y prohibiciones en aplicaciones que violen derechos humanos fundamentales.',
+      title: 'Sistemas Aut?nomos',
+      description: '?tica de la toma de decisiones automatizada',
+      content:
+        'Desde veh?culos sin conductor hasta sistemas letales, los sistemas aut?nomos deben operar con supervisi?n humana, directivas ?ticas claras y prohibiciones donde se comprometan derechos fundamentales.',
       image: 'https://images.unsplash.com/photo-1694729101068-a2c621f877b4?auto=format&fit=crop&w=1000&q=80'
     }
   ];
+
 
   return (
     <section id="temas-claves" className="py-20 bg-white">

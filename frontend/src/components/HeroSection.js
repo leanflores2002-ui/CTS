@@ -1,10 +1,11 @@
+
 import React from 'react';
 import SafeImage from './SafeImage';
 import { ArrowDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
-  
+
 
   return (
     <section id="inicio" className="pt-24 pb-16 hero--animated anim-gradient">
@@ -12,10 +13,10 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 data-reveal className="reveal reveal-up text-5xl md:text-6xl font-serif font-bold text-slate-900 leading-tight">
-              Ética de la Inteligencia Artificial
+              Etica de la Inteligencia Artificial
             </h1>
             <p data-reveal className="reveal reveal-up text-xl text-slate-600 leading-relaxed" style={{ transitionDelay: '80ms' }}>
-              Explorando los principios fundamentales, desafíos y responsabilidades en el desarrollo y aplicación de sistemas de inteligencia artificial en la sociedad moderna.
+              Te invitamos a recorrer ideas clave sobre principios eticos, riesgos compartidos y responsabilidades en el desarrollo y uso de sistemas de inteligencia artificial en nuestras comunidades.
             </p>
             <div className="pt-4">
               <Link
@@ -33,7 +34,7 @@ const HeroSection = () => {
               data-parallax
               data-parallax-speed="0.18"
               src="/img/hero-inicio.jpg"
-              alt="Rostro humano con composiciones tecnológicas y escenas de IA"
+              alt="Rostro humano con composiciones tecnologicas y escenas de IA"
               className="w-full h-[400px] object-cover shadow-lg will-change-transform"
               loading="eager"
               fetchpriority="high"

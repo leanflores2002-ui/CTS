@@ -8,10 +8,10 @@ export default function ImpactosSocialesSection() {
         {/* Encabezado */}
         <div className="text-center mb-10 md:mb-14">
           <h1 className="text-3xl md:text-4xl font-serif font-bold text-gray-100">
-            Impactos Sociales y Dimensiones Eticas de la IA
+            Impactos Sociales y Dimensiones ?ticas de la IA
           </h1>
           <p className="mt-3 text-gray-300 max-w-3xl mx-auto">
-            Como la inteligencia artificial transforma el trabajo, la educacion, la ciencia y la vida social, y por que exige nuevas responsabilidades eticas, politicas y colectivas.
+            C?mo la inteligencia artificial transforma el trabajo, la educaci?n, la ciencia y la vida social, y por qu? exige nuevas responsabilidades ?ticas, pol?ticas y colectivas.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export default function ImpactosSocialesSection() {
 
         {/* Contexto CTS */}
         <div className="mb-10 text-center text-gray-300 max-w-4xl mx-auto">
-          La IA no avanza sola: esta orientada por decisiones humanas, sociales y politicas. La etica requiere miradas interdisciplinarias y herramientas de gobernanza concretas.
+          La IA no avanza sola: la gu?an decisiones humanas, sociales y pol?ticas. La ?tica demanda miradas interdisciplinarias y herramientas de gobernanza concretas.
         </div>
 
         {/* Seccion: Sociedad */}
@@ -39,7 +39,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Trabajo y habilidades</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              La IA automatiza tareas rutinarias y reconfigura ocupaciones. La mayor exposicion se da en tareas administrativas; entre 2023 y 2027 se espera una recomposicion del empleo con desplazamientos y creacion de nuevos puestos, y cerca de 44% de habilidades en evolucion.
+              La IA automatiza tareas rutinarias y reconfigura ocupaciones. De 2023 a 2027 se esperan desplazamientos y nuevas oportunidades, y aproximadamente 44% de las habilidades se redefinir?n.
             </CardContent>
           </Card>
           <Card className="bg-gray-900/60 border border-gray-700 rounded-xl transition-all hover:shadow-lg">
@@ -47,7 +47,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Educacion y comunicacion</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              La IA generativa facilita tutorias y apoyo a la escritura, pero exige politicas de uso responsable, transparencia y evaluacion justa.
+              La IA generativa ofrece tutor?as y apoyo a la escritura, pero exige pol?ticas de uso responsable, transparencia y evaluaci?n justa.
             </CardContent>
           </Card>
           <Card className="bg-gray-900/60 border border-gray-700 rounded-xl transition-all hover:shadow-lg">
@@ -55,7 +55,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Desinformacion y esfera publica</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              La proliferacion de contenidos sinteticos y deepfakes amplifica la desinformacion; es un riesgo critico a corto plazo y se requieren directrices para plataformas digitales.
+              La proliferaci?n de contenidos sint?ticos y deepfakes amplifica la desinformaci?n; es un riesgo cr?tico a corto plazo que requiere directrices para plataformas digitales.
             </CardContent>
           </Card>
           <Card className="bg-gray-900/60 border border-gray-700 rounded-xl transition-all hover:shadow-lg">
@@ -63,7 +63,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Brecha digital</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              El acceso desigual a conectividad, datos y computo profundiza inequidades; millones de personas siguen sin conexion, lo que condiciona quien puede beneficiarse de la IA.
+              El acceso desigual a conectividad, datos y c?mputo profundiza inequidades; millones de personas siguen sin conexi?n, limitando qui?n puede beneficiarse de la IA.
             </CardContent>
           </Card>
         </div>
@@ -76,7 +76,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Derechos fundamentales</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              En justicia, salud, credito o servicios publicos, la IA puede introducir sesgos o afectar privacidad si carece de evaluaciones de impacto y explicabilidad.
+              En justicia, salud, cr?dito o servicios p?blicos, la IA puede introducir sesgos o afectar la privacidad si faltan evaluaciones de impacto y explicabilidad.
             </CardContent>
           </Card>
           <Card className="bg-gray-900/60 border border-gray-700 rounded-xl transition-all hover:shadow-lg">
@@ -84,7 +84,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Alfabetizacion digital y etica</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              Toda la sociedad necesita competencias para comprender limites, sesgos y buenas practicas de IA. Se requieren formacion docente, politicas institucionales y proteccion de datos.
+              Toda la sociedad necesita competencias para comprender l?mites, sesgos y buenas pr?cticas de la IA. Se requieren formaci?n docente, pol?ticas institucionales y protecci?n de datos.
             </CardContent>
           </Card>
           <Card className="bg-gray-900/60 border border-gray-700 rounded-xl transition-all hover:shadow-lg">
@@ -92,7 +92,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Etica participativa</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              La IA debe evaluarse con participacion de comunidades afectadas y equipos diversos, con rendicion de cuentas.
+              La IA debe evaluarse con participaci?n de comunidades afectadas y equipos diversos, con rendici?n de cuentas.
             </CardContent>
           </Card>
           <Card className="bg-gray-900/60 border border-gray-700 rounded-xl transition-all hover:shadow-lg">
@@ -100,7 +100,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Ejemplo CTS</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              Automatizacion y desigualdad: sin politicas de transicion (formacion, movilidad laboral, proteccion social), la IA puede concentrar beneficios y ampliar brechas salariales.
+              Automatizaci?n y desigualdad: sin pol?ticas de transici?n (formaci?n, movilidad laboral, protecci?n social), la IA puede concentrar beneficios y ampliar brechas salariales.
             </CardContent>
           </Card>
         </div>
@@ -114,7 +114,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Orientacion humana y politica</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              La eleccion de problemas, datos y metricas refleja valores e incentivos. Marcos regulatorios y de gestion de riesgos encauzan el desarrollo hacia usos responsables basados en riesgo.
+              La elecci?n de problemas, datos y m?tricas refleja valores e incentivos. Marcos regulatorios y de gesti?n de riesgos encauzan el desarrollo hacia usos responsables seg?n el nivel de riesgo.
             </CardContent>
           </Card>
 
@@ -123,7 +123,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Enfoque interdisciplinario</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              Los dilemas eticos requieren integrar ingenieria, ciencias sociales, filosofia, derecho, comunicacion, economia y diseno. Es clave para garantizar seguridad, explicabilidad, equidad y buena gobernanza de datos.
+              Los dilemas ?ticos requieren integrar ingenier?a, ciencias sociales, filosof?a, derecho, comunicaci?n, econom?a y dise?o. Es clave para garantizar seguridad, explicabilidad, equidad y buena gobernanza de datos.
             </CardContent>
           </Card>
 
@@ -132,7 +132,7 @@ export default function ImpactosSocialesSection() {
               <CardTitle className="text-gray-100">Innovacion con responsabilidad</CardTitle>
             </CardHeader>
             <CardContent className="text-gray-300">
-              Lo que la IA puede hacer no siempre es lo que la sociedad debe permitir. Aplicar proporcionalidad, precaucion, evaluacion de impacto y supervision humana; ensayar en dominios criticos y documentar modelos y datos.
+              Lo que la IA puede hacer no siempre es lo que la sociedad debe permitir. Aplicar proporcionalidad, precauci?n, evaluaci?n de impacto y supervisi?n humana; ensayar en dominios cr?ticos y documentar modelos y datos.
             </CardContent>
           </Card>
         </div>
@@ -140,7 +140,7 @@ export default function ImpactosSocialesSection() {
         {/* Reflexion final (CTS) */}
         <div className="mt-8 p-6 bg-gray-900/60 border border-gray-700 rounded-xl text-gray-200">
           <p className="leading-relaxed">
-            <span className="font-semibold">Reflexion final:</span> equilibrar innovacion con responsabilidad requiere participacion publica y mecanismos de rendicion de cuentas. Auditorias de sesgo, comites de etica, tableros de riesgo y consulta a comunidades afectadas fortalecen legitimidad y reducen danos.
+            <span className="font-semibold">Reflexi?n final:</span> equilibrar innovaci?n con responsabilidad requiere participaci?n p?blica y mecanismos de rendici?n de cuentas. Auditor?as de sesgo, comit?s de ?tica, tableros de riesgo y consulta a comunidades afectadas fortalecen legitimidad y reducen da?os.
           </p>
         </div>
 

@@ -128,8 +128,7 @@ const AIStatsSection = () => {
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                El Stanford AI Index 2024 reporta una rápida expansión de la IA generativa en 2023–2024 y un aumento de adopción en áreas como servicio al cliente, marketing y desarrollo de software. La OCDE (2023) observa mayor adopción en grandes empresas que en pymes.
-              </p>
+                El Stanford AI Index 2024 muestra una expansi?n acelerada de la IA generativa en 2023-2024 y un salto en adopciones para servicio al cliente, marketing y desarrollo de software; la OCDE (2023) destaca que las grandes empresas avanzan m?s r?pido que las pymes.</p>
               <p className="text-sm text-slate-500">Fuentes: Stanford AI Index 2024; OCDE 2023.</p>
             </CardContent>
           </Card>
@@ -140,8 +139,7 @@ const AIStatsSection = () => {
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                WEF (Future of Jobs 2023): ~83M puestos desplazados y ~69M creados a 2027; ~44% de habilidades afectadas. Evidencia experimental (MIT, 2023) muestra ≈14% de mejora promedio en tareas de redacción con IA generativa, mayor para perfiles menos experimentados. OIT (2023): alta exposición en tareas administrativas.
-              </p>
+                WEF (Future of Jobs 2023) proyecta ~83M puestos desplazados y ~69M creados hacia 2027, con ~44% de habilidades en revisi?n; estudios del MIT (2023) registran 14% de mejora promedio en tareas de redacci?n con IA generativa, especialmente para perfiles menos experimentados, y la OIT (2023) ubica la exposici?n m?s alta en tareas administrativas.</p>
               <p className="text-sm text-slate-500">Fuentes: WEF 2023; Noy & Zhang (MIT, 2023); OIT 2023.</p>
             </CardContent>
           </Card>
@@ -152,8 +150,7 @@ const AIStatsSection = () => {
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                UNESCO (2023) registra una adopción creciente de IA generativa en entornos educativos y recomienda marcos institucionales claros para integridad académica, evaluación y protección de datos.
-              </p>
+                UNESCO (2023) documenta una adopci?n creciente de IA generativa en educaci?n y recomienda marcos institucionales que refuercen integridad acad?mica, evaluaci?n justa y protecci?n de datos.</p>
               <p className="text-sm text-slate-500">Fuente: UNESCO 2023.</p>
             </CardContent>
           </Card>
@@ -164,8 +161,7 @@ const AIStatsSection = () => {
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                La OMS (2023) recoge expansión de pilotos de IA en diagnóstico e imagen médica, con énfasis en validación clínica, calidad de datos y vigilancia posdespliegue.
-              </p>
+                La OMS (2023) documenta pilotos de IA en diagn?stico e imagen m?dica con ?nfasis en validaci?n cl?nica, calidad de datos y vigilancia posdespliegue.</p>
               <p className="text-sm text-slate-500">Fuente: OMS 2023.</p>
             </CardContent>
           </Card>
@@ -176,8 +172,7 @@ const AIStatsSection = () => {
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                La UIT (2023) estima ~67% de la población mundial conectada y 2.6 mil millones de personas sin conexión, limitando la participación equitativa en beneficios de la IA.
-              </p>
+                La UIT (2023) estima ~67% de la poblaci?n mundial conectada y 2.6 mil millones sin conexi?n, lo que limita una participaci?n equitativa en los beneficios de la IA.</p>
               <p className="text-sm text-slate-500">Fuente: UIT 2023.</p>
             </CardContent>
           </Card>
@@ -188,8 +183,7 @@ const AIStatsSection = () => {
             </CardHeader>
             <CardContent className="text-slate-700 space-y-2">
               <p>
-                Encuestas de Pew Research (2023–2024) indican que, en EE. UU., predomina la preocupación sobre el entusiasmo por la IA, especialmente en usos de alto impacto como salud, vigilancia y trabajo.
-              </p>
+                Encuestas de Pew Research (2023-2024) muestran que en EE. UU. predomina la preocupaci?n frente al entusiasmo por la IA, sobre todo en salud, vigilancia y trabajo.</p>
               <p className="text-sm text-slate-500">Fuente: Pew Research Center 2023–2024.</p>
             </CardContent>
           </Card>

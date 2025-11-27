@@ -11,42 +11,44 @@ const CaseStudiesSection = () => {
     {
       id: 1,
       title: 'Reconocimiento Facial y Sesgo Racial',
-      category: 'Sesgo Algorítmico',
+      category: 'Sesgo Algor?tmico',
       year: '2018-2020',
-      summary: 'Estudios revelan tasas de error significativamente más altas en sistemas de reconocimiento facial para personas de color.',
-      description: 'Investigaciones de MIT y Stanford demostraron que sistemas comerciales de reconocimiento facial tienen tasas de error de hasta 34% más altas para mujeres de piel oscura comparado con hombres de piel clara. Empresas como Amazon, Microsoft e IBM enfrentaron críticas y algunas suspendieron temporalmente la venta de esta tecnología a policías. Este caso ilustra cómo los sesgos en datos de entrenamiento pueden perpetuar discriminación racial sistemática.',
+      summary: 'Investigaciones mostraron tasas de error mucho m?s altas para personas de piel oscura en sistemas comerciales de reconocimiento facial.',
+      description:
+        'Informes del MIT y Stanford revelaron que varios sistemas comerciales fallaban hasta 34% m?s con mujeres de piel oscura frente a hombres de piel clara. Empresas como Amazon, Microsoft e IBM suspendieron temporalmente ventas a agencias policiales tras cr?ticas. El caso evidencia que sesgos en los datos perpet?an discriminaci?n racial sistem?tica.',
       implications: [
-        'Arrestos erróneos basados en identificaciones incorrectas',
-        'Discriminación sistemática en sistemas de vigilancia',
-        'Pérdida de confianza pública en tecnologías de IA',
-        'Llamados a regulación gubernamental más estricta'
+        'Arrestos err?neos derivados de identificaciones imprecisas',
+        'Discriminaci?n sistem?tica en sistemas de vigilancia',
+        'Desconfianza p?blica en tecnolog?as de IA',
+        'Demandas por regulaciones m?s estrictas'
       ],
       lessons: [
-        'Necesidad de datasets de entrenamiento diversos y representativos',
-        'Auditorías independientes antes del despliegue',
-        'Transparencia sobre limitaciones y tasas de error',
-        'Consideración de impactos desproporcionados en comunidades marginadas'
+        'Necesidad de conjuntos de datos diversos y representativos',
+        'Auditor?as independientes antes y durante el despliegue',
+        'Transparencia sobre l?mites y tasas de error',
+        'Evaluar impactos en comunidades hist?ricamente marginadas'
       ],
       image: 'https://images.unsplash.com/photo-1559137771-536eecb999ab?auto=format&fit=crop&w=1200&q=80'
     },
     {
       id: 2,
-      title: 'Vehículos Autónomos: El Dilema Moral',
-      category: 'Toma de Decisiones Autónoma',
+      title: 'Veh?culos Aut?nomos: El Dilema Moral',
+      category: 'Toma de Decisiones Aut?noma',
       year: '2016-Presente',
-      summary: 'Los accidentes fatales de vehículos autónomos plantean preguntas sobre responsabilidad y programación de decisiones éticas.',
-      description: 'Varios incidentes, incluyendo el accidente fatal de Uber en 2018 en Arizona, han expuesto los desafíos éticos de los vehículos autónomos. ¿Cómo debe un vehículo decidir en situaciones donde el daño es inevitable? ¿Quién es responsable cuando falla el sistema: el fabricante, el desarrollador del software, o el "conductor"? El experimento "Máquina Moral" del MIT reveló diferencias culturales significativas en juicios éticos sobre estas decisiones.',
+      summary: 'Accidentes fatales pusieron sobre la mesa decisiones ?ticas en veh?culos aut?nomos.',
+      description:
+        'El choque fatal de Uber en Arizona en 2018 y otros incidentes generaron preguntas sobre c?mo programar respuestas cuando el da?o es inevitable o qui?n asume la culpa: fabricante, desarrollador de software o el ?conductor?. El experimento "M?quina Moral" del MIT mostr? que los juicios ?ticos var?an seg?n culturas.',
       implications: [
-        'Necesidad de marcos legales claros sobre responsabilidad',
-        'Desafíos en la programación de dilemas éticos',
-        'Diferencias culturales en valores morales',
-        'Impacto en seguros y regulación vehicular'
+        'Necesidad de marcos legales claros para establecer responsabilidades',
+        'Retos para codificar dilemas morales complejos',
+        'Diferencias culturales en valores de decisi?n',
+        'Impactos en seguros y regulaciones vehiculares'
       ],
       lessons: [
-        'Imposibilidad de codificar todas las situaciones éticas posibles',
-        'Importancia de mantener supervisión humana en sistemas críticos',
-        'Necesidad de transparencia en algoritmos de toma de decisiones',
-        'Desarrollo de estándares internacionales para sistemas autónomos'
+        'No se puede anticipar cada situaci?n ?tica posible',
+        'Mantener supervisi?n humana en sistemas cr?ticos',
+        'Exigir transparencia en criterios de decisi?n',
+        'Impulsar est?ndares internacionales sobre autonom?a'
       ],
       image: 'https://images.unsplash.com/photo-1694729101068-a2c621f877b4?auto=format&fit=crop&w=1200&q=80'
     },
@@ -55,86 +57,91 @@ const CaseStudiesSection = () => {
       title: 'COMPAS: Sesgo en Justicia Predictiva',
       category: 'Justicia y Equidad',
       year: '2016',
-      summary: 'El algoritmo de predicción de reincidencia muestra sesgos raciales en el sistema de justicia criminal estadounidense.',
-      description: 'ProPublica reveló que COMPAS, un algoritmo usado por tribunales para predecir probabilidad de reincidencia, era significativamente más propenso a etiquetar falsamente a acusados negros como alto riesgo (45%) comparado con acusados blancos (23%). A pesar de que el algoritmo no usaba directamente la raza, variables correlacionadas resultaron en discriminación indirecta. Este caso generó debates sobre el uso de IA en decisiones judiciales.',
+      summary: 'COMPAS exhibi? sesgos raciales en decisiones judiciales.',
+      description:
+        'ProPublica revel? que el algoritmo COMPAS, usado por tribunales para predecir reincidencia, se?alaba falsamente a acusados negros como alto riesgo (45%) con m?s frecuencia que a acusados blancos (23%). Aunque no usaba la raza directamente, variables correlacionadas introduc?an discriminaci?n indirecta, desatando debates sobre IA en los tribunales.',
       implications: [
-        'Perpetuación de sesgos sistémicos en el sistema judicial',
-        'Cuestionamiento de la "objetividad" algorítmica',
-        'Impacto desproporcionado en comunidades de color',
-        'Debates sobre debido proceso y derecho a explicación'
+        'Perpetuaci?n de sesgos sist?micos en el sistema judicial',
+        'Cuestionamiento de la supuesta objetividad algor?tmica',
+        'Impacto desigual en comunidades de color',
+        'Debates sobre debido proceso y derecho a explicaci?n'
       ],
       lessons: [
-        'Los algoritmos pueden discriminar incluso sin usar características protegidas directamente',
-        'Necesidad de auditorías externas de sistemas de IA en contextos de alto riesgo',
-        'Importancia de considerar equidad junto con precisión',
-        'Valor de la supervisión humana en decisiones que afectan libertad individual'
+        'Requerir auditor?as externas en contextos de alto riesgo',
+        'Equilibrar equidad con precisi?n estad?stica',
+        'Garantizar supervisi?n humana en decisiones de libertad',
+        'Vigilar variables correlacionadas y proxies discriminatorios'
       ],
       image: 'https://images.pexels.com/photos/8090125/pexels-photo-8090125.jpeg'
     },
     {
       id: 4,
-      title: 'Cambridge Analytica y Manipulación Electoral',
-      category: 'Privacidad y Manipulación',
+      title: 'Cambridge Analytica y Manipulaci?n Electoral',
+      category: 'Privacidad y Manipulaci?n',
       year: '2018',
-      summary: 'Uso no autorizado de datos de millones de usuarios de Facebook para influir en elecciones y referéndums.',
-      description: 'Cambridge Analytica recopiló datos de hasta 87 millones de usuarios de Facebook sin consentimiento explícito, usando perfiles psicológicos generados por IA para crear campañas políticas micro-dirigidas durante elecciones en EE.UU., Reino Unido y otros países. El escándalo expuso cómo los datos personales pueden ser explotados para manipular opinión pública y procesos democráticos, llevando a Facebook a enfrentar multas masivas y escrutinio regulatorio.',
+      summary: 'Uso no autorizado de datos de millones de usuarios para alimentar campa?as pol?ticas.',
+      description:
+        'Cambridge Analytica recolect? datos de hasta 87 millones de usuarios de Facebook sin consentimiento expreso y us? perfiles generados por IA para microdirigir campa?as en EE. UU., Reino Unido y otros comicios. El esc?ndalo mostr? c?mo la data personal puede manipular opini?n p?blica y procesos democr?ticos.',
       implications: [
-        'Amenaza a la integridad de procesos democráticos',
+        'Amenaza a la integridad de procesos democr?ticos',
         'Violaciones masivas de privacidad de datos',
-        'Manipulación psicológica a escala sin precedentes',
+        'Manipulaci?n psicol?gica a gran escala',
         'Crisis de confianza en plataformas de redes sociales'
       ],
       lessons: [
-        'Necesidad urgente de regulaciones de protección de datos (como GDPR)',
-        'Riesgos de permitir que datos personales se conviertan en mercancía',
-        'Importancia de consentimiento informado y transparencia',
-        'Responsabilidad de plataformas en proteger datos de usuarios'
+        'Regulaci?n urgente sobre el uso de datos personales',
+        'Consentimiento informado y transparencia en algoritmos',
+        'Responsabilidad de plataformas en proteger a usuarios',
+        'Sanciones y supervisi?n efectiva sobre campa?as digitales'
       ],
       image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=1200&q=80'
     },
     {
       id: 5,
-      title: 'IA en Diagnóstico Médico: Promesas y Riesgos',
+      title: 'IA en Diagn?stico M?dico: Promesas y Riesgos',
       category: 'Salud y Medicina',
       year: '2019-Presente',
-      summary: 'Sistemas de IA demuestran alta precisión en diagnósticos, pero plantean preguntas sobre responsabilidad y acceso equitativo.',
-      description: 'Algoritmos de deep learning han mostrado capacidad para igualar o superar a radiólogos en detección de cáncer, enfermedades oculares y otras condiciones. Sin embargo, estudios revelan que muchos modelos funcionan peor en poblaciones subrepresentadas en datos de entrenamiento. El caso del algoritmo de salud de UnitedHealth que favorecía a pacientes blancos sobre negros con necesidades de salud similares destacó riesgos de sesgo en IA médica.',
+      summary: 'Algoritmos muestran alta precisi?n pero plantean desigualdades.',
+      description:
+        'Modelos de deep learning igualan o superan a radiol?gos en detecci?n de c?ncer y enfermedades oculares, pero funcionan peor con poblaciones subrepresentadas. El algoritmo de UnitedHealth favorec?a a pacientes blancos con necesidades similares. El caso expone riesgos de sesgo y responsabilidad en IA m?dica.',
       implications: [
-        'Potencial para mejorar acceso y precisión de diagnósticos',
-        'Riesgo de ampliar disparidades existentes en atención médica',
-        'Preguntas sobre responsabilidad en errores diagnósticos',
-        'Necesidad de validación rigurosa antes de implementación clínica'
+        'Potencial para ampliar cobertura y precisi?n diagn?stica',
+        'Riesgo de agrandar disparidades existentes',
+        'Preguntas sobre responsabilidad ante errores cl?nicos',
+        'Necesidad de validaci?n rigurosa antes del despliegue'
       ],
       lessons: [
-        'Validación en poblaciones diversas es crítica',
-        'IA debe complementar, no reemplazar, juicio médico humano',
-        'Transparencia sobre cómo funcionan los algoritmos es esencial para confianza',
-        'Regulación debe equilibrar innovación con seguridad del paciente'
+        'Validar modelos en poblaciones diversas',
+        'La IA debe complementar, no reemplazar, el juicio m?dico',
+        'Exigir transparencia en el funcionamiento de algoritmos',
+        'Regulaci?n que equilibre innovaci?n y seguridad del paciente'
       ],
       image: 'https://images.pexels.com/photos/8439076/pexels-photo-8439076.jpeg'
     },
     {
       id: 6,
       title: 'Deepfakes: De Entretenimiento a Amenaza',
-      category: 'Desinformación',
+      category: 'Desinformaci?n',
       year: '2020-Presente',
-      summary: 'Videos y audio generados por IA crean desafíos para verificación de autenticidad y confianza en medios.',
-      description: 'La tecnología deepfake ha evolucionado de curiosidad técnica a herramienta para desinformación, acoso y fraude. Casos incluyen videos falsos de políticos, pornografía no consensuada de celebridades, y fraudes empresariales donde criminales imitaron voces de ejecutivos para aprobar transferencias financieras. La facilidad creciente de crear deepfakes convincentes plantea desafíos existenciales para confianza en evidencia audiovisual.',
+      summary: 'Deepfakes ponen en riesgo la integridad de la evidencia audiovisual.',
+      description:
+        'La tecnolog?a deepfake evolucion? de curiosidad t?cnica a herramienta para desinformaci?n, acoso y fraude. Incluye videos falsos de pol?ticos, pornograf?a no consensuada de celebridades y fraudes empresariales donde criminales imitaron voces de ejecutivos. La facilidad creciente de crear deepfakes plantea desaf?os para verificar autenticidad.',
       implications: [
-        'Erosión de confianza en evidencia audiovisual',
+        'Erosi?n de confianza en evidencia audiovisual',
         'Nuevas formas de acoso y abuso, especialmente contra mujeres',
-        'Amenaza a integridad electoral y discurso público',
-        'Desafíos para verificación periodística y judicial'
+        'Amenaza a la integridad electoral y el discurso p?blico',
+        'Dificultades para la verificaci?n period?stica y judicial'
       ],
       lessons: [
-        'Necesidad urgente de tecnologías de detección de deepfakes',
-        'Importancia de alfabetización mediática pública',
-        'Marcos legales deben abordar creación y distribución maliciosa',
-        'Plataformas tecnológicas deben implementar medidas de autenticación'
+        'Desarrollar tecnolog?as de detecci?n de deepfakes',
+        'Promover alfabetizaci?n medi?tica entre la ciudadan?a',
+        'Marcos legales que aborden la creaci?n y distribuci?n maliciosas',
+        'Medidas de autenticaci?n en plataformas tecnol?gicas'
       ],
       image: 'https://images.unsplash.com/photo-1595666944516-bbb485958fb5?auto=format&fit=crop&w=1200&q=80'
     }
   ];
+
 
   return (
     <section id="casos-estudio" className="py-20 bg-slate-50">
